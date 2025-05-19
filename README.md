@@ -25,6 +25,7 @@
 
 ## 🗂️ Project Structure
 
+```bash
 thamm/
 ├── src/                 # Flink job source code
 ├── strategies/          # Pluggable strategy implementations
@@ -32,7 +33,7 @@ thamm/
 ├── docker/              # Kafka, Zookeeper, Flink setup
 ├── pom.xml              # Maven dependency and build config
 └── README.md            # You’re reading this
-
+```
 ---
 
 ## ⚙️ Step-by-Step Setup
@@ -52,13 +53,13 @@ docker-compose up -d
 ```
 
 This launches:
-	•	Kafka on localhost:9092
-	•	ZooKeeper on localhost:2181
-	•	Flink JobManager UI at localhost:8081
+- Kafka on localhost:9092
+- ZooKeeper on localhost:2181
+- Flink JobManager UI at localhost:8081
 
 📌 Wait a few seconds for all services to fully start.
 
-⸻
+---
 
 ### 3. Build the project with Maven
 
@@ -69,7 +70,7 @@ mvn clean package
 
 This will create target/thamm-1.0-SNAPSHOT.jar.
 
-⸻
+---
 
 ### 4. Run the THAMM Flink job (local mode)
 
@@ -78,11 +79,11 @@ java -jar target/thamm-1.0-SNAPSHOT.jar --kafka localhost:9092
 ```
 
 This will:
-	•	Listen to player join events on Kafka topic player-events
-	•	Apply the matchmaking strategy
-	•	Output matches to Kafka topic match-events
+- Listen to player join events on Kafka topic player-events
+- Apply the matchmaking strategy
+- Output matches to Kafka topic match-events
 
-⸻
+---
 
 ### 👥 Simulate Player Input (Coming Next)
 
@@ -90,7 +91,7 @@ In development: a simple Kafka producer will push fake players into player-event
 
 For now, you can use the Kafka CLI or a Python script to send sample events.
 
-⸻
+---
 
 ## 🧪 Test Your Setup
 
@@ -101,34 +102,34 @@ docker exec -it docker-kafka-1 \
   --topic match-events --from-beginning
 ```
 
-⸻
+---
 
 ## 📈 Flink Dashboard
 
 Visit http://localhost:8081 to view:
-	•	Task status
-	•	Job graph
-	•	Event throughput
+- Task status
+- Job graph
+- Event throughput
 
-⸻
+---
 
 ## ✅ Next Goals
-	•	Add stateful buffering and window-based control
-	•	Enable checkpointing and fault tolerance
-	•	Create multiple strategy modules
-	•	Add Grafana + Prometheus integration for metrics
-	•	Stress test with high player input volume
+- Add stateful buffering and window-based control
+- Enable checkpointing and fault tolerance
+- Create multiple strategy modules
+- Add Grafana + Prometheus integration for metrics
+- Stress test with high player input volume
 
-⸻
+---
 
 ## 🧠 Authors
 
 Built with 💡 for a graduate-level middleware systems course at UC Irvine.
 
-⸻
+---
 
 ## 📜 License
 
-MIT — feel free to use, modify, or build on top of THAMM.
+MIT - feel free to use, modify, or build on top of THAMM.
 
 ---
