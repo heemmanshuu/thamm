@@ -81,7 +81,7 @@ java -jar target/thamm-1.0-SNAPSHOT.jar --kafka localhost:9092
 This will:
 - Listen to player join events on Kafka topic player-events
 - Apply the matchmaking strategy
-- Output matches to Kafka topic match-events
+- Output matches the Kafka topic match-events
 
 ---
 
@@ -124,7 +124,10 @@ Visit http://localhost:8081 to view:
 
 ## 🧠 Authors
 
-Built with 💡 for a graduate-level middleware systems course at UC Irvine.
+Andrew Joe Collins
+Gnana Heemmanshuu Dasari
+Kevin Lu Fang
+
 
 ---
 
