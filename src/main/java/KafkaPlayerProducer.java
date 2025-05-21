@@ -9,6 +9,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 public class KafkaPlayerProducer {
     public static void main(String[] args) throws Exception {
+        System.out.println("Starting kafka producer...");
         // Step 1: Define producer configuration
         Properties props = new Properties();
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092"); // Kafka broker
