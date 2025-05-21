@@ -124,7 +124,10 @@ Visit http://localhost:8081 to view:
 
 ## 🧠 Authors
 
-Built with 💡 for a graduate-level middleware systems course at UC Irvine.
+Andrew Joe Collins
+Gnana Heemmanshuu Dasari
+Kevin Lu Fang
+
 
 ---
 
