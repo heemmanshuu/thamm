@@ -28,6 +28,12 @@
             <artifactId>flink-streaming-java</artifactId>
             <version>${flink.version}</version>
         </dependency>
+        <!-- Kafka  -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>3.6.1</version> 
+        </dependency>
 
         <!-- Kafka connector -->
         <dependency>
