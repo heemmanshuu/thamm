@@ -59,6 +59,11 @@ This launches:
 
 📌 Wait a few seconds for all services to fully start.
 
+Remember to stop the services after testing to free up your system resources. Run
+```bash
+docker-compose down
+```
+
 ---
 
 ### 3. Build the project with Maven
