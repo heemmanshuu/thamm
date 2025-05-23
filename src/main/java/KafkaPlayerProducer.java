@@ -3,6 +3,8 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.RecordMetadata;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -23,13 +25,13 @@ public class KafkaPlayerProducer {
 
         // Step 3: Create a record (message) to send
         String topic = "matchmaking-system-1";
-        String key = "my-key"; // Optional, but used to determine partitioning
-        for (int i = 0; i < 3; i++)
+        String key = "player"; // Optional, but used to determine partitioning
+        for (int i = 0; i < 4; i++)
         {
-            Object[] playerInfo = new Object[3]; // TODO: THIS SHOULD BE THE LIST OF PLAYER INFO
-            playerInfo[0] = "PlayerID" + i;
-            playerInfo[1] = "PlayerName" + i;
-            playerInfo[2] = i;
+            Map<String, Object> playerInfo = new HashMap<String, Object>(); // TODO: THIS SHOULD BE THE DICT OF PLAYER INFO
+            playerInfo.put("id", i);
+            playerInfo.put("rank", 1000);
+            playerInfo.put("region", "NA");
             try {
                 String jsonPlayerInfo = mapper.writeValueAsString(playerInfo);
                 ProducerRecord<String, String> record = new ProducerRecord<>(topic, key, jsonPlayerInfo);
