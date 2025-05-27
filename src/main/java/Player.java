@@ -2,15 +2,15 @@ import java.io.Serializable;
 
 public class Player implements Serializable {
     private int id;
-    private int rank;
+    private int mmr;
     private String region;
 
     // Required for Jackson deserialization
     public Player() {}
 
-    public Player(int id, int rank, String region) {
+    public Player(int id, int mmr, String region) {
         this.id = id;
-        this.rank = rank;
+        this.mmr = mmr;
         this.region = region;
     }
 
@@ -18,14 +18,14 @@ public class Player implements Serializable {
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
-    public int getRank() { return rank; }
-    public void setRank(int rank) { this.rank = rank; }
+    public int getMMR() { return mmr; }
+    public void setMMR(int mmr) { this.mmr = mmr; }
 
     public String getRegion() { return region; }
     public void setRegion(String region) { this.region = region; }
 
     @Override
     public String toString() {
-        return "Player{id=" + id + ", rank=" + rank + ", region='" + region + "'}";
+        return "Player{id=" + id + ", mmr=" + mmr + ", region='" + region + "'}";
     }
 }

@@ -1,17 +1,14 @@
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonNode;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.typeinfo.TypeHint;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.api.java.typeutils.ResultTypeQueryable;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsInitializer;
-import org.apache.flink.api.common.functions.MapFunction;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -19,34 +16,24 @@ import java.util.*;
 
 public class FlinkMatchmaker {
 
-    public static class JsonToMap implements MapFunction<String, Map<String, Object>>, ResultTypeQueryable<Map<String, Object>> {
-        private static final ObjectMapper mapper = new ObjectMapper();
-
-        @Override
-        public Map<String, Object> map(String json) throws Exception {
-            return mapper.readValue(json, new TypeReference<Map<String, Object>>() {});
-        }
-
-        @Override
-        public TypeInformation<Map<String, Object>> getProducedType() {
-            return TypeInformation.of(new TypeHint<Map<String, Object>>() {});
-        }
-    }
-
     public static void main(String[] args) throws Exception {
         // Set up the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        int teamSize = 1;
-        int numTeams = 2;
 
         // Configure Kafka consumer
         KafkaSource<String> source = KafkaSource.<String>builder()
                 .setBootstrapServers("localhost:9092")
-                .setTopics("matchmaking-system-1")
+                .setTopics("matchmaking-system-2")
                 .setGroupId("matchmaking-group")
                 .setStartingOffsets(OffsetsInitializer.earliest())
                 .setValueOnlyDeserializer(new SimpleStringSchema())
                 .build();
+
+        // 1. Initialize MMRBucketizer with current mean, stddev, k buckets (TODO: mean and stddev should be recalculated at regular intervals as a form of load balancing)
+        double mean = 1000.0;
+        double stddev = 200.0;
+        int k = 20;
+        MMRBucketizer mmrBucketizer = new MMRBucketizer(mean, stddev, k);
 
         // create a flink DataStream to process player records
         DataStream<String> jsonStream = env.fromSource(
@@ -72,7 +59,7 @@ public class FlinkMatchmaker {
         players.print();
 
         DataStream<Match> matches = players
-                .keyBy(Player::getRank)
+                .keyBy(player -> mmrBucketizer.getBucket(player.getMMR()))
                 .process(new PlayerMatchmaker());
 
         matches.print();
