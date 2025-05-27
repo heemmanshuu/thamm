@@ -1,10 +1,6 @@
-import com.fasterxml.jackson.core.type.TypeReference;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
-import org.apache.flink.api.common.typeinfo.TypeHint;
-import org.apache.flink.api.common.typeinfo.TypeInformation;
-import org.apache.flink.api.java.typeutils.ResultTypeQueryable;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.connector.kafka.source.KafkaSource;
@@ -23,7 +19,7 @@ public class FlinkMatchmaker {
         // Configure Kafka consumer
         KafkaSource<String> source = KafkaSource.<String>builder()
                 .setBootstrapServers("localhost:9092")
-                .setTopics("matchmaking-system-2")
+                .setTopics("matchmaking-system-7")
                 .setGroupId("matchmaking-group")
                 .setStartingOffsets(OffsetsInitializer.earliest())
                 .setValueOnlyDeserializer(new SimpleStringSchema())
