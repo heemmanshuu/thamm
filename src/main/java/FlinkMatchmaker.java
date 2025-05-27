@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -10,6 +11,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsInitializer;
+import org.apache.flink.api.common.functions.MapFunction;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -53,21 +55,27 @@ public class FlinkMatchmaker {
                 "Incoming Players"
         );
 
-        //jsonStream.print();
-        // System.out.println(jsonStream);
+        jsonStream.print();
 
         // transform the json stream into stream of maps representing a join_queue request
-        SingleOutputStreamOperator<Map<String, Object>> players = jsonStream.map(new JsonToMap());
+        //SingleOutputStreamOperator<Map<String, Object>> players = jsonStream.map(new JsonToMap());
 
-        DataStream<Map<String, Object>> teams = players
-                .keyBy(player -> (Integer) player.get("rank"))  // cast to Integer, not int
-                .process(new TeamMatchmaker(teamSize));
+        DataStream<Player> players = jsonStream.map(new MapFunction<String, Player>() {
+            private final ObjectMapper objectMapper = new ObjectMapper();
 
-        DataStream<Map<String, Object>> matches = teams
-                .keyBy(team -> (Integer) team.get("teamRank"))
-                .process(new TeamVsTeamMatchmaker(numTeams));
+            @Override
+            public Player map(String json) throws Exception {
+                return objectMapper.readValue(json, Player.class);
+            }
+        }).returns(Player.class);
 
-        // matches.print();
+        players.print();
+
+        DataStream<Match> matches = players
+                .keyBy(Player::getRank)
+                .process(new PlayerMatchmaker());
+
+        matches.print();
 
         env.execute("Flink Matchmaker with KafkaSource");
     }

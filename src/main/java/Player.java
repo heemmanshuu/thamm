@@ -1,27 +1,31 @@
-import java.util.Map;
+import java.io.Serializable;
 
-public class Player {
-    private String id;
-    private Map<String, Object> attributes;
+public class Player implements Serializable {
+    private int id;
+    private int rank;
+    private String region;
 
-    // Default constructor
+    // Required for Jackson deserialization
     public Player() {}
 
-    public Player(String id,  Map<String, Object> attributes) {
+    public Player(int id, int rank, String region) {
         this.id = id;
-        this.attributes = attributes;
+        this.rank = rank;
+        this.region = region;
     }
 
-    public String getId() {
-        return id;
-    }
+    // Getters and setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
-    public Map<String, Object> getAttributes() {
-        return attributes;
-    }
+    public int getRank() { return rank; }
+    public void setRank(int rank) { this.rank = rank; }
+
+    public String getRegion() { return region; }
+    public void setRegion(String region) { this.region = region; }
 
     @Override
     public String toString() {
-        return "Player{id='" + id + "', attributes=" + attributes + '}';
+        return "Player{id=" + id + ", rank=" + rank + ", region='" + region + "'}";
     }
 }
