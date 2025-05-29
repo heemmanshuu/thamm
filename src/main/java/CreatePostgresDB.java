@@ -3,20 +3,24 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class CreatePostgresDB {
-    public static void main(String[] args) {
-        String url = "jdbc:postgresql://localhost:5432/postgres"; // connect to default 'postgres' DB
-        String user = "myuser"; // update with your user
-        String password = ""; // default user doesn't need a password
+  public static void main(String[] args) {
+    String url = "jdbc:postgresql://localhost:5432/postgres"; // connect to default 'postgres' DB
+    String user = "myuser"; // update with your user
+    String password = ""; // default user doesn't need a password
 
-        try (Connection conn = DriverManager.getConnection(url, user, password);
-             Statement stmt = conn.createStatement()) {
+    try (Connection conn = DriverManager.getConnection(url, user, password);
+      Statement stmt = conn.createStatement()) {
 
-            String sql = "CREATE DATABASE my_database";
-            stmt.executeUpdate(sql);
-            System.out.println("Database created successfully!");
+      String dbName = "my_database"; // database you want to delete
+      stmt.executeUpdate("DROP DATABASE IF EXISTS " + dbName);
+      System.out.println("Database deleted successfully!");
+    
+      String sql = "CREATE DATABASE my_database";
+      stmt.executeUpdate(sql);
+      System.out.println("Database created successfully!");
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    } catch (Exception e) {
+      e.printStackTrace();
     }
+  }
 }
