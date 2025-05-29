@@ -5,8 +5,8 @@ import java.sql.Statement;
 public class CreatePostgresDB {
     public static void main(String[] args) {
         String url = "jdbc:postgresql://localhost:5432/postgres"; // connect to default 'postgres' DB
-        String user = "I588770";
-        String password = ""; // update with your actual password
+        String user = "myuser"; // update with your user
+        String password = ""; // default user doesn't need a password
 
         try (Connection conn = DriverManager.getConnection(url, user, password);
              Statement stmt = conn.createStatement()) {
