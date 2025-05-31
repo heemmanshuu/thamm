@@ -4,6 +4,7 @@ public class Player implements Serializable {
     private int id;
     private int mmr;
     private String region;
+    private double churnLikelihood;
 
     // Required for Jackson deserialization
     public Player() {}
@@ -23,6 +24,10 @@ public class Player implements Serializable {
 
     public String getRegion() { return region; }
     public void setRegion(String region) { this.region = region; }
+
+    public double getChurnLikelihood() { return churnLikelihood;}
+    public void setChurnLikelihood(double likelihood) { this.churnLikelihood = likelihood;}
+
 
     @Override
     public String toString() {
