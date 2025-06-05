@@ -15,6 +15,7 @@ public class FlinkMatchmaker {
     public static void main(String[] args) throws Exception {
         // Set up the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        env.setParallelism(10);
 
         // Configure Kafka consumer
         KafkaSource<String> source = KafkaSource.<String>builder()
@@ -24,12 +25,6 @@ public class FlinkMatchmaker {
                 .setStartingOffsets(OffsetsInitializer.earliest())
                 .setValueOnlyDeserializer(new SimpleStringSchema())
                 .build();
-
-        // 1. Initialize MMRBucketizer with current mean, stddev, k buckets (TODO: mean and stddev should be recalculated at regular intervals as a form of load balancing)
-        double mean = 1500.0;
-        double stddev = 500.0;
-        int k = 50;
-        MMRBucketizer mmrBucketizer = new MMRBucketizer(mean, stddev, k);
 
         // create a flink DataStream to process player records
         DataStream<String> jsonStream = env.fromSource(
@@ -51,7 +46,7 @@ public class FlinkMatchmaker {
         players.print();
 
         DataStream<Match> matches = players
-                .keyBy(player -> mmrBucketizer.getBucket(player.getMMR()))
+                .keyBy(player -> "all")
                 .process(new PlayerMatchmaker());
 
         matches.print();
