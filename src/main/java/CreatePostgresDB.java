@@ -62,7 +62,7 @@ public class CreatePostgresDB {
         int gamesTied = (int) Math.round(totalGames * tieMargin);
         int gamesLost = totalGames - gamesWon - gamesTied;
         double winProbability = rng.nextDouble();
-        int lastGameResult = 0; // 0 = tie
+        int lastGameResult = 1; // tie
 
         int streakCount = (gamesTied > 0) ? rng.nextInt(gamesTied) : 0;
 
@@ -70,10 +70,10 @@ public class CreatePostgresDB {
         double loseThreshold = winRate + (tieMargin / 2.0);
 
         if (winProbability < winThreshold) {
-            lastGameResult = 1;  // win
+            lastGameResult = 2;  // win
             streakCount = (gamesWon > 0) ? rng.nextInt(gamesWon) : 0;
         } else if (winProbability > loseThreshold) {
-            lastGameResult = -1; // loss
+            lastGameResult = 0; // loss
             streakCount = (gamesLost > 0) ? rng.nextInt(gamesLost) : 0;
         }
 
