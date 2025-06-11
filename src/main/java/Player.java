@@ -6,6 +6,12 @@ public class Player implements Serializable {
     private String region;
     private double churnLikelihood;
 
+    private int winCount;
+    private int lossCount;
+    private int tieCount;
+    private int lastGameResult; // 0 - loss, 1 - tie, 2 - win
+    private int streak;
+
     // Required for Jackson deserialization
     public Player() {}
 
@@ -25,9 +31,23 @@ public class Player implements Serializable {
     public String getRegion() { return region; }
     public void setRegion(String region) { this.region = region; }
 
-    public double getChurnLikelihood() { return churnLikelihood;}
-    public void setChurnLikelihood(double likelihood) { this.churnLikelihood = likelihood;}
+    public double getChurnLikelihood() { return churnLikelihood; }
+    public void setChurnLikelihood(double likelihood) { this.churnLikelihood = likelihood; }
 
+    public int getWinCount() { return winCount; }
+    public void setWinCount(int winCount) { this.winCount = winCount; }
+
+    public int getLossCount() { return lossCount; }
+    public void setLossCount(int lossCount) { this.lossCount = lossCount; }
+
+    public int getTieCount() { return tieCount; }
+    public void setTieCount(int tieCount) { this.tieCount = tieCount; }
+
+    public int getLastGameResult() { return lastGameResult; }
+    public void setLastGameResult(int lastGameResult) { this.lastGameResult = lastGameResult; }
+
+    public int getStreak() { return streak; }
+    public void setStreak(int streak) { this.streak = streak; }
 
     @Override
     public String toString() {

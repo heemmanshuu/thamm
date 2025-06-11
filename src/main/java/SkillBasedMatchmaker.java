@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class PlayerMatchmaker extends ProcessFunction<Player, Match> {
+public class SkillBasedMatchmaker extends ProcessFunction<Player, Match> {
 
     private transient ListState<Player> waitingPlayers;
 
@@ -45,7 +45,7 @@ public class PlayerMatchmaker extends ProcessFunction<Player, Match> {
                     waitingPlayers.add(buffer.get(i));
                 }
 
-                Match match = new Match(UUID.randomUUID().toString(), -1, p1, p2); // no rank key now
+                Match match = new Match(UUID.randomUUID().toString(), p1, p2); // no rank key now
                 out.collect(match);
             }
         }

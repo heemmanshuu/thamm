@@ -33,6 +33,7 @@ public class FlinkMatchmaker {
                 "Incoming Players"
         );
 
+
         // transform the json stream into stream of players who sent join requests
         DataStream<Player> players = jsonStream.map(new MapFunction<String, Player>() {
             private final ObjectMapper objectMapper = new ObjectMapper();
@@ -47,7 +48,7 @@ public class FlinkMatchmaker {
 
         DataStream<Match> matches = players
                 .keyBy(player -> "all")
-                .process(new PlayerMatchmaker());
+                .process(new EOMMExactMatchmaker());
 
         matches.print();
 

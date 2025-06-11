@@ -8,9 +8,8 @@ public class Match {
         // Default constructor needed for serialization/deserialization
     }
 
-    public Match(String matchId, int teamRank, Player player1, Player player2) {
+    public Match(String matchId, Player player1, Player player2) {
         this.matchId = matchId;
-        this.teamRank = teamRank;
         this.player1 = player1;
         this.player2 = player2;
     }
@@ -21,14 +20,6 @@ public class Match {
 
     public void setMatchId(String matchId) {
         this.matchId = matchId;
-    }
-
-    public int getTeamRank() {
-        return teamRank;
-    }
-
-    public void setTeamRank(int teamRank) {
-        this.teamRank = teamRank;
     }
 
     public Player getPlayer1() {
@@ -51,7 +42,6 @@ public class Match {
     public String toString() {
         return "Match{" +
                 "matchId='" + matchId + '\'' +
-                ", teamRank=" + teamRank +
                 ", player1=" + player1 +
                 ", player2=" + player2 +
                 '}';
