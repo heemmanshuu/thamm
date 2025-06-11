@@ -37,29 +37,48 @@ public class CreatePostgresDB {
          Statement newStmt = newConn.createStatement()) {
 
       String createTableSQL = """
+        DROP TABLE IF EXISTS PLAYER;
         CREATE TABLE IF NOT EXISTS PLAYER (
           player_id INT PRIMARY KEY,
           games_won INT,
           games_lost INT,
-          last_game_win BOOLEAN
+          games_tied INT,
+          last_game_result INT,
+          streak_count INT
         );
         """;
 
       newStmt.executeUpdate(createTableSQL);
-      System.out.println("PLAYER table created or already exists.");
+      System.out.println("PLAYER table created (or recreated).");
 
-      StringBuilder insertBuilder = new StringBuilder("INSERT INTO PLAYER (player_id, games_won, games_lost, last_game_win) VALUES\n");
+      StringBuilder insertBuilder = new StringBuilder("INSERT INTO PLAYER (player_id, games_won, games_lost, games_tied, last_game_result, streak_count) VALUES\n");
       Random rng = new Random();
       int totalPlayers = 1000;
+      double tieMargin = 0.05; // increasing this would make ties happen more often
       for (int i = 0; i < totalPlayers; i++) {
-        double winRate = Math.min(0.5 + 0.15 * rng.nextGaussian(), 1);
-        int totalGames = 10 + rng.nextInt(40); // between 10 and 50 games
-        int gamesWon = (int) Math.round(winRate * totalGames);
-        int gamesLost = totalGames - gamesWon;
-        boolean lastGameWin = rng.nextDouble() < winRate;
+        double winRate = Math.max(Math.min(0.5 + 0.15 * rng.nextGaussian(), 1), 0);
+        int totalGames = rng.nextInt(100); // starts from 0, exclusive to upper bound
+        int gamesWon = (int) Math.round(winRate * totalGames * (1.0 - tieMargin));
+        int gamesTied = (int) Math.round(totalGames * tieMargin);
+        int gamesLost = totalGames - gamesWon - gamesTied;
+        double winProbability = rng.nextDouble();
+        int lastGameResult = 0; // 0 = tie
 
-        insertBuilder.append(String.format("(%d, %d, %d, %s)%s\n",
-                i, gamesWon, gamesLost, lastGameWin, (i < totalPlayers - 1 ? "," : "")));
+        int streakCount = (gamesTied > 0) ? rng.nextInt(gamesTied) : 0;
+
+        double winThreshold = winRate - (tieMargin / 2.0);
+        double loseThreshold = winRate + (tieMargin / 2.0);
+
+        if (winProbability < winThreshold) {
+            lastGameResult = 1;  // win
+            streakCount = (gamesWon > 0) ? rng.nextInt(gamesWon) : 0;
+        } else if (winProbability > loseThreshold) {
+            lastGameResult = -1; // loss
+            streakCount = (gamesLost > 0) ? rng.nextInt(gamesLost) : 0;
+        }
+
+        insertBuilder.append(String.format("(%d, %d, %d, %d, %d, %d)%s\n",
+                i, gamesWon, gamesLost, gamesTied, lastGameResult, streakCount, (i < totalPlayers - 1 ? "," : "")));
       }
       insertBuilder.append("ON CONFLICT (player_id) DO NOTHING;");
       newStmt.executeUpdate(insertBuilder.toString());
