@@ -43,4 +43,4 @@ docker exec -it docker-kafka-1 kafka-topics --bootstrap-server kafka:29092 --cre
 
 Delete the topic (in case you need to reset):
 
-docker-kafka-1 kafka-topics --bootstrap-server kafka:29092 --delete --topic matchmaking-system-7
+docker exec -it docker-kafka-1 kafka-topics --bootstrap-server kafka:29092 --delete --topic matchmaking-system-7
