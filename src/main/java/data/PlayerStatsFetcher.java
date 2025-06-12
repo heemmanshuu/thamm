@@ -1,4 +1,7 @@
+package data;
 import java.sql.*;
+
+import types.PlayerStats;
 
 public class PlayerStatsFetcher {
     private static final String URL = "jdbc:postgresql://localhost:5432/my_database";

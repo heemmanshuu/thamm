@@ -1,6 +1,6 @@
+package types;
 public class Match {
     private String matchId;
-    private int teamRank;
     private Player player1;
     private Player player2;
 

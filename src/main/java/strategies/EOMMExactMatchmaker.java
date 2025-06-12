@@ -1,3 +1,4 @@
+package strategies;
 import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.api.java.tuple.Tuple2;
@@ -8,6 +9,10 @@ import org.apache.flink.util.Collector;
 import org.jgrapht.alg.matching.GreedyWeightedMatching;
 import org.jgrapht.graph.DefaultUndirectedWeightedGraph;
 import org.jgrapht.graph.DefaultWeightedEdge;
+
+import types.Match;
+import types.Player;
+
 import org.jgrapht.alg.interfaces.MatchingAlgorithm.Matching;
 
 import java.sql.*;

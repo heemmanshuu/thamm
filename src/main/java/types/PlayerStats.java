@@ -1,3 +1,4 @@
+package types;
 public class PlayerStats {
     public final int gamesWon;
     public final int gamesLost;

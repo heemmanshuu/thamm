@@ -1,3 +1,4 @@
+package thamm;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -8,6 +9,10 @@ import org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsIni
 import org.apache.flink.connector.kafka.sink.KafkaSink;
 import org.apache.flink.connector.kafka.sink.KafkaRecordSerializationSchema;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import strategies.EOMMExactMatchmaker;
+import types.Match;
+import types.Player;
 
 
 public class FlinkMatchmaker {

@@ -1,8 +1,14 @@
+package strategies;
 import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.ProcessFunction;
 import org.apache.flink.util.Collector;
+
+import data.PlayerStatsFetcher;
+import types.Match;
+import types.Player;
+import types.PlayerStats;
 
 import java.util.ArrayList;
 import java.util.List;
