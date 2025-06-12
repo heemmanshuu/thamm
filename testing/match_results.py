@@ -3,6 +3,12 @@ import psycopg2
 import numpy as np
 import os
 
+NUM_PLAYERS = 1000              # UPDATE THIS TO CHANGE THE NUMBER OF PLAYERS
+MATCHMAKING_TYPE = "EOMM"       # UPDATE THIS TO CHANGE THE TYPE OF MATCHMAKING (REMEMBER TO CHANGE IN FlinkMatchmaker too!)
+
+PLAYER_TIMESTAMPS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_timestamps.json"
+MATCH_RESULTS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_matches.json"
+
 DB_CONFIG = {
     "dbname": "my_database",
     "user": "myuser",
@@ -128,17 +134,26 @@ def analyze_matches(matches, conn, timestamps):
 def main():
     conn = psycopg2.connect(**DB_CONFIG)
 
-    for files in [["eomm_match_results.json", "eomm_player_timestamps.json"], ["sbmm_match_results.json", "sbmm_player_timestamps.json"]]:
-        fname = files[0]
-        timestamps_file = files[1]
+    matchmaking_types = ["eomm", "sbmm"]
+    player_counts = [1000, 2000, 5000, 10000]
 
-        matches = load_matches(fname)
-        timestamps = load_timestamps(timestamps_file)
+    for mm_type in matchmaking_types:
+        for num_players in player_counts:
+            match_file = f"{mm_type}_{num_players}_player_matches.json"
+            ts_file = f"{mm_type}_{num_players}_player_timestamps.json"
 
-        result = analyze_matches(matches, conn, timestamps)
-        print(f"\n📊 Results for {fname}:")
-        for key, val in result.items():
-            print(f"{key.replace('_', ' ').capitalize()}: {val:.4f}")
+            try:
+                matches = load_matches(match_file)
+                timestamps = load_timestamps(ts_file)
+            except FileNotFoundError as e:
+                print(f"[WARN] Skipping {mm_type.upper()} {num_players} players: {e}")
+                continue
+
+            result = analyze_matches(matches, conn, timestamps)
+
+            print(f"\n📊 Results for {mm_type.upper()} ({num_players} players):")
+            for key, val in result.items():
+                print(f"{key.replace('_', ' ').capitalize()}: {val:.4f}")
 
     conn.close()
 
