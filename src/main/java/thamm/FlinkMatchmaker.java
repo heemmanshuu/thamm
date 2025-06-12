@@ -24,7 +24,7 @@ public class FlinkMatchmaker {
 
         // Configure Kafka consumer
         KafkaSource<String> source = KafkaSource.<String>builder()
-                .setBootstrapServers("localhost:9092")
+                .setBootstrapServers("kafka:29092")
                 .setTopics("matchmaking-system-7")
                 .setGroupId("matchmaking-group")
                 .setStartingOffsets(OffsetsInitializer.earliest())
@@ -59,7 +59,7 @@ public class FlinkMatchmaker {
 
         // write the matches using a Kafka Sink to a topic that will be processed by the game server
         KafkaSink<String> sink = KafkaSink.<String>builder()
-                .setBootstrapServers("localhost:9092")
+                .setBootstrapServers("kafka:29092")
                 .setRecordSerializer(KafkaRecordSerializationSchema.builder()
                         .setTopic("match-results-1")
                         .setValueSerializationSchema(new SimpleStringSchema())
