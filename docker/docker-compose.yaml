@@ -27,6 +27,8 @@ services:
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     command: jobmanager
+    volumes:
+      - ./logs/jobmanager:/opt/flink/log
 
   taskmanager:
     image: flink:1.18.1-java17
@@ -35,3 +37,5 @@ services:
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     command: taskmanager
+    volumes:
+      - ./logs/taskmanager:/opt/flink/log

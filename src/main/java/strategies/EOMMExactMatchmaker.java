@@ -9,6 +9,8 @@ import org.apache.flink.util.Collector;
 import org.jgrapht.alg.matching.GreedyWeightedMatching;
 import org.jgrapht.graph.DefaultUndirectedWeightedGraph;
 import org.jgrapht.graph.DefaultWeightedEdge;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 import types.Match;
 import types.Player;
@@ -21,6 +23,11 @@ import java.util.stream.Collectors;
 
 public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, Match> {
 
+    // for fault tolerance demo
+    private static boolean hasFailed = false;
+
+    private static final Logger LOG = LoggerFactory.getLogger(EOMMExactMatchmaker.class);
+
     private transient Connection connection;
     private transient ListState<Player> playerPool;
     private static final String URL = "jdbc:postgresql://host.docker.internal:5432/my_database";
@@ -32,10 +39,20 @@ public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, M
         connection = DriverManager.getConnection(URL, USER, PASSWORD);
         ListStateDescriptor<Player> descriptor = new ListStateDescriptor<>("playerPool", Player.class);
         playerPool = getRuntimeContext().getListState(descriptor);
+        LOG.info("Opened DB connection and initialized player pool.");
     }
 
     @Override
     public void processElement(Player player, Context ctx, Collector<Match> out) throws Exception {
+        LOG.info("Received player: {}", player);
+
+        // fault tolerance demo
+        // if (player.getId() == 42 && !hasFailed) {
+        //     hasFailed = true;
+        //     LOG.warn("Simulating failure for player with ID 42");
+        //     throw new RuntimeException("Simulated failure for fault tolerance demo");
+        // }
+        
         List<Player> players = new ArrayList<>();
         for (Player p : playerPool.get()) {
             players.add(p);
@@ -44,6 +61,7 @@ public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, M
 
         if (players.size() % 2 != 0) {
             playerPool.update(players);
+            LOG.info("Waiting for more players. Pool size: {}", players.size());
             return;
         }
 
@@ -59,6 +77,7 @@ public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, M
             String matchId = UUID.randomUUID().toString();
             Match match = new Match(matchId, pair.f0, pair.f1);
             out.collect(match);
+            LOG.info("Created match: {} between Player {} and Player {}", matchId, pair.f0.getId(), pair.f1.getId());
         }
 
         playerPool.clear();
@@ -80,6 +99,7 @@ public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, M
 
             return player;
         } catch (SQLException e) {
+            LOG.error("Error enriching player {}: {}", player.getId(), e.getMessage());
             e.printStackTrace();
             return null;
         }
@@ -192,6 +212,7 @@ public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, M
     public void close() throws Exception {
         if (connection != null && !connection.isClosed()) {
             connection.close();
+            LOG.info("Closed DB connection.");
         }
     }
 }

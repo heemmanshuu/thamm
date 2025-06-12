@@ -1,6 +1,11 @@
 package thamm;
 import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
+
+import java.util.concurrent.TimeUnit;
+import org.apache.flink.api.common.time.Time;
+
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.datastream.DataStream;
@@ -24,6 +29,14 @@ public class FlinkMatchmaker {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
 
+        // checkpointing code for fault tolerance
+        env.enableCheckpointing(10000);
+        env.getCheckpointConfig().setCheckpointTimeout(60000);
+        env.getCheckpointConfig().setMinPauseBetweenCheckpoints(5000);
+        env.getCheckpointConfig().setMaxConcurrentCheckpoints(1);
+        env.setRestartStrategy(RestartStrategies.fixedDelayRestart(3, Time.of(10, TimeUnit.SECONDS)));
+
+
         MMRBucketizer bucketizer = new MMRBucketizer(1500.0, 300.0, 10);
 
         // Configure Kafka consumer
@@ -44,20 +57,24 @@ public class FlinkMatchmaker {
 
 
         // transform the json stream into stream of players who sent join requests
-        DataStream<Player> players = jsonStream.map(new MapFunction<String, Player>() {
+        DataStream<Player> players = jsonStream
+        .map(new MapFunction<String, Player>() {
             private final ObjectMapper objectMapper = new ObjectMapper();
 
             @Override
             public Player map(String json) throws Exception {
                 return objectMapper.readValue(json, Player.class);
             }
-        }).returns(Player.class);
+        })
+        .name("Parse JSON to player")
+        .returns(Player.class);
 
-        players.print();
+        players.print().name("Print Players");
 
         DataStream<Match> matches = players
                 .keyBy(player -> bucketizer.getBucket(player.getMMR()))
-                .process(new SkillBasedMatchmaker());
+                .process(new EOMMExactMatchmaker())
+                .name("EOMM Matchmaker");
 
         matches.print();
 
@@ -71,6 +88,7 @@ public class FlinkMatchmaker {
                 .build();
 
         matches.map(match -> new ObjectMapper().writeValueAsString(match))
+                .name("Serialize match to JSON")
                 .sinkTo(sink);
 
         env.execute("Flink Matchmaker with KafkaSource");
