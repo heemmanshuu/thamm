@@ -1,0 +1,8946 @@
+[
+  {
+    "matchId": "8d8761af-cc23-4ffb-9eb4-f103ebb6f6fb",
+    "player1": {
+      "id": 0,
+      "mmr": 2358,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 28,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "player2": {
+      "id": 3,
+      "mmr": 2519,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7423518
+  },
+  {
+    "matchId": "1893f587-55bc-4300-978f-c4863452306f",
+    "player1": {
+      "id": 5,
+      "mmr": 852,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 6,
+      "mmr": 2926,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.7427547
+  },
+  {
+    "matchId": "c76fc18e-ed42-41e4-90df-379499078561",
+    "player1": {
+      "id": 7,
+      "mmr": 2356,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 9,
+      "mmr": 2265,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 44,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7428188
+  },
+  {
+    "matchId": "b917110e-7f8c-43b9-a0a8-98e62c1d8c42",
+    "player1": {
+      "id": 14,
+      "mmr": 2446,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 18,
+      "mmr": 2937,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 46,
+      "lossCount": 44,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.7428663
+  },
+  {
+    "matchId": "b561834d-45ac-48ca-a245-8b4b08d59096",
+    "player1": {
+      "id": 21,
+      "mmr": 2741,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "player2": {
+      "id": 11,
+      "mmr": 1924,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 17
+    },
+    "received_timestamp": 1749702794.7429147
+  },
+  {
+    "matchId": "1cf7c5a7-f010-4767-940a-f2912fb6bfbb",
+    "player1": {
+      "id": 17,
+      "mmr": 2004,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 42,
+      "tieCount": 4,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 19,
+      "mmr": 1960,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 38,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.742956
+  },
+  {
+    "matchId": "50f33c4b-9f52-43bc-a58a-bb0826876336",
+    "player1": {
+      "id": 15,
+      "mmr": 127,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 10,
+      "mmr": 1845,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 24
+    },
+    "received_timestamp": 1749702794.7430096
+  },
+  {
+    "matchId": "0213ab37-a20f-4712-a588-064203ae6273",
+    "player1": {
+      "id": 26,
+      "mmr": 1777,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 56,
+      "lossCount": 11,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "player2": {
+      "id": 8,
+      "mmr": 1760,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 31,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "received_timestamp": 1749702794.7430456
+  },
+  {
+    "matchId": "0599c48b-13d7-4ede-a603-f7abd80bcdde",
+    "player1": {
+      "id": 13,
+      "mmr": 1572,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 59,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 34
+    },
+    "player2": {
+      "id": 25,
+      "mmr": 2226,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7430766
+  },
+  {
+    "matchId": "000e74dc-28ce-415e-87d1-8c2410aab50a",
+    "player1": {
+      "id": 23,
+      "mmr": 1093,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 26,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 30,
+      "mmr": 2044,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 44,
+      "lossCount": 49,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 41
+    },
+    "received_timestamp": 1749702794.7431061
+  },
+  {
+    "matchId": "625745ac-6233-4b24-ab5f-d8ff0909566a",
+    "player1": {
+      "id": 22,
+      "mmr": 1685,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 55,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 47
+    },
+    "player2": {
+      "id": 27,
+      "mmr": 2407,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 55,
+      "lossCount": 30,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 47
+    },
+    "received_timestamp": 1749702794.7431724
+  },
+  {
+    "matchId": "8f948ae3-8d4c-4453-a456-b454bf15081a",
+    "player1": {
+      "id": 29,
+      "mmr": 540,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 26
+    },
+    "player2": {
+      "id": 24,
+      "mmr": 2133,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7432485
+  },
+  {
+    "matchId": "c08ca02c-8969-48f4-bd89-9894d5733e71",
+    "player1": {
+      "id": 28,
+      "mmr": 338,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 31,
+      "mmr": 1042,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 39,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "received_timestamp": 1749702794.7433257
+  },
+  {
+    "matchId": "83a1aa27-8eb7-41b9-8f51-a3d7831d9d52",
+    "player1": {
+      "id": 36,
+      "mmr": 305,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 32,
+      "mmr": 2567,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7434237
+  },
+  {
+    "matchId": "a88673df-5b81-4973-beb6-f33a22308d2e",
+    "player1": {
+      "id": 33,
+      "mmr": 3000,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 62,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 34,
+      "mmr": 1481,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.743474
+  },
+  {
+    "matchId": "c3f18c9a-4a84-4762-8e33-4c57375c6cf9",
+    "player1": {
+      "id": 39,
+      "mmr": 2425,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "player2": {
+      "id": 43,
+      "mmr": 505,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 18,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.743506
+  },
+  {
+    "matchId": "56a3957d-b84a-49f0-b763-9b4a68edba10",
+    "player1": {
+      "id": 44,
+      "mmr": 29,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 3,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 47,
+      "mmr": 59,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7435575
+  },
+  {
+    "matchId": "c8014400-3216-484f-9321-2c6cacea03f7",
+    "player1": {
+      "id": 41,
+      "mmr": 274,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "player2": {
+      "id": 37,
+      "mmr": 421,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 36,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 32
+    },
+    "received_timestamp": 1749702794.743605
+  },
+  {
+    "matchId": "e72f0b5d-7d0d-48cf-80a4-011485f11536",
+    "player1": {
+      "id": 45,
+      "mmr": 1041,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 55,
+      "mmr": 1871,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7436347
+  },
+  {
+    "matchId": "b4cae9a4-8e1a-4218-9a6c-8049e23f2e31",
+    "player1": {
+      "id": 51,
+      "mmr": 2066,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 49,
+      "mmr": 2822,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 35,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7436619
+  },
+  {
+    "matchId": "6f714b06-4ffb-4d6e-b9a2-4035e6d2ba47",
+    "player1": {
+      "id": 56,
+      "mmr": 2846,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 18,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 52,
+      "mmr": 2857,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7436898
+  },
+  {
+    "matchId": "45166fbb-0f66-428e-a744-b078200ad779",
+    "player1": {
+      "id": 46,
+      "mmr": 859,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 20,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 59,
+      "mmr": 1213,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7437184
+  },
+  {
+    "matchId": "ef9fb3ff-6cb2-4309-b1d5-9aeab2840a72",
+    "player1": {
+      "id": 58,
+      "mmr": 2005,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 50,
+      "mmr": 2721,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 38
+    },
+    "received_timestamp": 1749702794.7437575
+  },
+  {
+    "matchId": "bba02131-3752-4a50-b98c-8fc65deeb352",
+    "player1": {
+      "id": 61,
+      "mmr": 41,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 36,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "player2": {
+      "id": 60,
+      "mmr": 781,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7437837
+  },
+  {
+    "matchId": "347a97dc-2a20-485f-bfd9-5fcb7cd65207",
+    "player1": {
+      "id": 53,
+      "mmr": 2636,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 62,
+      "mmr": 2857,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7438097
+  },
+  {
+    "matchId": "0377ac70-d2e8-4d63-8855-64d58faa1c2b",
+    "player1": {
+      "id": 65,
+      "mmr": 2660,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 38,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 72,
+      "mmr": 2641,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 27,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.7438545
+  },
+  {
+    "matchId": "af256800-c781-4dc1-a213-5fe5d4ce6aef",
+    "player1": {
+      "id": 73,
+      "mmr": 2163,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 28,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "player2": {
+      "id": 64,
+      "mmr": 2143,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 32,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.7438843
+  },
+  {
+    "matchId": "670095a1-e9c9-4f85-bf00-7f403549055b",
+    "player1": {
+      "id": 71,
+      "mmr": 1960,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 70,
+      "mmr": 2438,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7439132
+  },
+  {
+    "matchId": "84627d9b-c334-4cd5-973f-c398df2ef8b0",
+    "player1": {
+      "id": 68,
+      "mmr": 809,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "player2": {
+      "id": 80,
+      "mmr": 2370,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 28,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.74394
+  },
+  {
+    "matchId": "44ec8402-25ce-4f98-a321-7bde0bc03e62",
+    "player1": {
+      "id": 82,
+      "mmr": 1749,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 69,
+      "mmr": 1964,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7439651
+  },
+  {
+    "matchId": "7525be9d-e4e0-48b1-8c98-ef5249306241",
+    "player1": {
+      "id": 79,
+      "mmr": 554,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 75,
+      "mmr": 2081,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7439928
+  },
+  {
+    "matchId": "f4280b05-76af-416e-aa17-7097fb1c8e81",
+    "player1": {
+      "id": 88,
+      "mmr": 2017,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 15,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 86,
+      "mmr": 2604,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 50,
+      "lossCount": 35,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7440279
+  },
+  {
+    "matchId": "aa4bf6d0-151e-4a03-b313-67e95a55347c",
+    "player1": {
+      "id": 89,
+      "mmr": 1377,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 45,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "player2": {
+      "id": 77,
+      "mmr": 2097,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7440588
+  },
+  {
+    "matchId": "8129c47e-b894-4119-a7b5-c5def8306ed9",
+    "player1": {
+      "id": 92,
+      "mmr": 2040,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 7,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 78,
+      "mmr": 2408,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 55,
+      "lossCount": 30,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.744086
+  },
+  {
+    "matchId": "70b84118-a028-46c3-b45d-410224bc20da",
+    "player1": {
+      "id": 85,
+      "mmr": 816,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 96,
+      "mmr": 2945,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7441146
+  },
+  {
+    "matchId": "c2651317-bd2c-4b69-ab9a-c15f8e76a7d1",
+    "player1": {
+      "id": 97,
+      "mmr": 1192,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "player2": {
+      "id": 99,
+      "mmr": 1206,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7441404
+  },
+  {
+    "matchId": "7193150d-d83e-466b-b0df-cdf900d6416d",
+    "player1": {
+      "id": 90,
+      "mmr": 885,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 83,
+      "mmr": 1707,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 23,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7441666
+  },
+  {
+    "matchId": "5153d13b-a9db-4cfd-b055-201ec8468f9a",
+    "player1": {
+      "id": 93,
+      "mmr": 751,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 28,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "player2": {
+      "id": 98,
+      "mmr": 2892,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 31,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 27
+    },
+    "received_timestamp": 1749702794.744192
+  },
+  {
+    "matchId": "6f2fdb14-e288-4dbb-902a-7440a149b4df",
+    "player1": {
+      "id": 100,
+      "mmr": 590,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "player2": {
+      "id": 101,
+      "mmr": 1828,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 18,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 33
+    },
+    "received_timestamp": 1749702794.7442186
+  },
+  {
+    "matchId": "a3b36616-72ad-417e-b6c7-c7c55c7b8a99",
+    "player1": {
+      "id": 110,
+      "mmr": 1239,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 103,
+      "mmr": 2500,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7442455
+  },
+  {
+    "matchId": "d001d1a9-3a72-4e53-be2d-48bd3c070999",
+    "player1": {
+      "id": 105,
+      "mmr": 1094,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 27,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 117,
+      "mmr": 2373,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 18,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7442715
+  },
+  {
+    "matchId": "94fccc62-0ce1-493b-80f9-8bbe8555d0da",
+    "player1": {
+      "id": 114,
+      "mmr": 1981,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 128,
+      "mmr": 2980,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 53,
+      "lossCount": 22,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 42
+    },
+    "received_timestamp": 1749702794.7442975
+  },
+  {
+    "matchId": "7781d0c8-6f59-4591-9aa4-8b3ef877b1cd",
+    "player1": {
+      "id": 141,
+      "mmr": 2096,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 58,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 148,
+      "mmr": 2927,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.744323
+  },
+  {
+    "matchId": "57898f67-3cd3-4fea-8cfa-6f4fea920bed",
+    "player1": {
+      "id": 136,
+      "mmr": 703,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 139,
+      "mmr": 2081,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 48,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.7443488
+  },
+  {
+    "matchId": "7038ec85-8ab1-4ce3-a23d-ef550f4917aa",
+    "player1": {
+      "id": 109,
+      "mmr": 1029,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 54,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 47
+    },
+    "player2": {
+      "id": 156,
+      "mmr": 2800,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7443743
+  },
+  {
+    "matchId": "55cc1731-c97a-437a-a40c-bce0249fcaf3",
+    "player1": {
+      "id": 158,
+      "mmr": 181,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 24
+    },
+    "player2": {
+      "id": 150,
+      "mmr": 497,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 24
+    },
+    "received_timestamp": 1749702794.7443998
+  },
+  {
+    "matchId": "6b794969-af25-4c62-a294-dcb47f49486f",
+    "player1": {
+      "id": 163,
+      "mmr": 797,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 18,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 24
+    },
+    "player2": {
+      "id": 164,
+      "mmr": 2451,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.744426
+  },
+  {
+    "matchId": "561fa6df-f239-4dd3-8eac-bf620dea29e8",
+    "player1": {
+      "id": 120,
+      "mmr": 694,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 160,
+      "mmr": 2200,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 46,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.74445
+  },
+  {
+    "matchId": "f222aa2a-254d-4fb6-afc8-88aa6ac8cf44",
+    "player1": {
+      "id": 168,
+      "mmr": 811,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 42,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 27
+    },
+    "player2": {
+      "id": 157,
+      "mmr": 1986,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 28,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7444758
+  },
+  {
+    "matchId": "0f9b0c4d-3158-4b9d-8552-7887198a4cf0",
+    "player1": {
+      "id": 172,
+      "mmr": 515,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 166,
+      "mmr": 546,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.7445016
+  },
+  {
+    "matchId": "f9c8d78b-8359-42f9-a763-96972bd354bc",
+    "player1": {
+      "id": 134,
+      "mmr": 242,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 27,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "player2": {
+      "id": 145,
+      "mmr": 2256,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 23,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.744527
+  },
+  {
+    "matchId": "9ff99caa-992f-43ed-a557-d8f87c90b3ec",
+    "player1": {
+      "id": 183,
+      "mmr": 952,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 57,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 44
+    },
+    "player2": {
+      "id": 182,
+      "mmr": 2738,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7445545
+  },
+  {
+    "matchId": "861d1b5e-b151-4faa-8e93-28559b5ca878",
+    "player1": {
+      "id": 186,
+      "mmr": 2462,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "player2": {
+      "id": 161,
+      "mmr": 2930,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 40,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.7445803
+  },
+  {
+    "matchId": "a9e7d450-d5b7-4a1e-a453-1f0256c44195",
+    "player1": {
+      "id": 191,
+      "mmr": 1037,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 25,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 17
+    },
+    "player2": {
+      "id": 154,
+      "mmr": 1512,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.74462
+  },
+  {
+    "matchId": "e4310236-83ab-4e97-81c6-45579b0e79bb",
+    "player1": {
+      "id": 194,
+      "mmr": 2886,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 18
+    },
+    "player2": {
+      "id": 181,
+      "mmr": 2888,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7446992
+  },
+  {
+    "matchId": "a4b6e6ee-d280-491d-9612-51928f733cd5",
+    "player1": {
+      "id": 198,
+      "mmr": 78,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 27,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "player2": {
+      "id": 180,
+      "mmr": 772,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7447515
+  },
+  {
+    "matchId": "0f39c863-4089-4230-b1ac-12d69b62ad6a",
+    "player1": {
+      "id": 199,
+      "mmr": 2621,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 41,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 24
+    },
+    "player2": {
+      "id": 185,
+      "mmr": 1878,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 14,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7448015
+  },
+  {
+    "matchId": "e7aad122-e159-4823-89fd-56663305f19f",
+    "player1": {
+      "id": 132,
+      "mmr": 1826,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 13
+    },
+    "player2": {
+      "id": 193,
+      "mmr": 2304,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 28,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.744832
+  },
+  {
+    "matchId": "446a5cd9-26b9-4421-af35-95928f4028b4",
+    "player1": {
+      "id": 108,
+      "mmr": 1219,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 37,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 19
+    },
+    "player2": {
+      "id": 116,
+      "mmr": 212,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 2,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7448602
+  },
+  {
+    "matchId": "81ec7ff9-5982-4190-9880-8ccc038f5140",
+    "player1": {
+      "id": 144,
+      "mmr": 638,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 21,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 121,
+      "mmr": 1768,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 46,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7448876
+  },
+  {
+    "matchId": "165d012d-fb34-4b74-aa72-c3ae59a6f7b3",
+    "player1": {
+      "id": 188,
+      "mmr": 1451,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 27,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 24
+    },
+    "player2": {
+      "id": 167,
+      "mmr": 1470,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 40,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7449143
+  },
+  {
+    "matchId": "f353fd96-68cb-45c2-b60f-520410033370",
+    "player1": {
+      "id": 137,
+      "mmr": 1325,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 66,
+      "lossCount": 25,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "player2": {
+      "id": 196,
+      "mmr": 1253,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7449403
+  },
+  {
+    "matchId": "6c655909-c42b-4001-a6f8-10b78fed512b",
+    "player1": {
+      "id": 165,
+      "mmr": 1060,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 36,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 138,
+      "mmr": 2641,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7449665
+  },
+  {
+    "matchId": "2fbbb8c8-162b-4114-9cb3-1e8bd5ef4ea3",
+    "player1": {
+      "id": 190,
+      "mmr": 2626,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "player2": {
+      "id": 179,
+      "mmr": 2409,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.745006
+  },
+  {
+    "matchId": "40809b60-1872-4502-8c5e-7d7b0dafa804",
+    "player1": {
+      "id": 195,
+      "mmr": 1849,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 50,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "player2": {
+      "id": 124,
+      "mmr": 2763,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 33,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7450342
+  },
+  {
+    "matchId": "3c1810cb-71de-43ce-b464-7d0d7d0ff39d",
+    "player1": {
+      "id": 129,
+      "mmr": 48,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "player2": {
+      "id": 177,
+      "mmr": 2052,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 45,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.7450655
+  },
+  {
+    "matchId": "5e0e4604-a9ce-4dc4-a76d-99a260a580a8",
+    "player1": {
+      "id": 102,
+      "mmr": 1050,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 57,
+      "lossCount": 26,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 42
+    },
+    "player2": {
+      "id": 151,
+      "mmr": 2899,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7450938
+  },
+  {
+    "matchId": "e363b863-eac0-40a6-98f5-d61b2cfd1b1a",
+    "player1": {
+      "id": 147,
+      "mmr": 1855,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 14,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 106,
+      "mmr": 2593,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7451205
+  },
+  {
+    "matchId": "f3619357-a0bb-479c-8077-dd326bb57c05",
+    "player1": {
+      "id": 192,
+      "mmr": 306,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 42,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 197,
+      "mmr": 1338,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 23
+    },
+    "received_timestamp": 1749702794.7451582
+  },
+  {
+    "matchId": "2d3510b3-256d-4959-a629-c88d879ccd38",
+    "player1": {
+      "id": 152,
+      "mmr": 1408,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 169,
+      "mmr": 1675,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.745188
+  },
+  {
+    "matchId": "7bd25acb-a92f-4c05-8ec3-61f704e26d78",
+    "player1": {
+      "id": 135,
+      "mmr": 1160,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 187,
+      "mmr": 1547,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 44,
+      "lossCount": 45,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 36
+    },
+    "received_timestamp": 1749702794.7452166
+  },
+  {
+    "matchId": "31001f8d-153c-403f-8030-f1e75fc06ae1",
+    "player1": {
+      "id": 200,
+      "mmr": 1793,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 40,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 32
+    },
+    "player2": {
+      "id": 201,
+      "mmr": 2339,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 24,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7452502
+  },
+  {
+    "matchId": "38eeec11-1dac-429c-b965-100f1b35480b",
+    "player1": {
+      "id": 204,
+      "mmr": 577,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 34,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "player2": {
+      "id": 207,
+      "mmr": 991,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.745279
+  },
+  {
+    "matchId": "a21f75ee-30b1-41fe-8237-09eaca507d90",
+    "player1": {
+      "id": 211,
+      "mmr": 1448,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 27,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 212,
+      "mmr": 590,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 35,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "received_timestamp": 1749702794.7453074
+  },
+  {
+    "matchId": "a46f62fd-b462-457b-bd88-99de9737c6fb",
+    "player1": {
+      "id": 205,
+      "mmr": 1587,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 5,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 217,
+      "mmr": 1869,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.745344
+  },
+  {
+    "matchId": "e973929b-0565-4299-adab-96a2c5f0af89",
+    "player1": {
+      "id": 220,
+      "mmr": 2195,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "player2": {
+      "id": 216,
+      "mmr": 2993,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.745372
+  },
+  {
+    "matchId": "3a149dd2-5949-4461-8dee-864025f68d14",
+    "player1": {
+      "id": 219,
+      "mmr": 332,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "player2": {
+      "id": 227,
+      "mmr": 145,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 14,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7454236
+  },
+  {
+    "matchId": "1431620a-3654-419a-a8ef-7c84d0a131a8",
+    "player1": {
+      "id": 230,
+      "mmr": 572,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 35,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "player2": {
+      "id": 224,
+      "mmr": 1217,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7454588
+  },
+  {
+    "matchId": "60843541-7041-4bdc-9f59-960a76808148",
+    "player1": {
+      "id": 218,
+      "mmr": 1357,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 24,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 231,
+      "mmr": 2103,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 61,
+      "lossCount": 15,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7454877
+  },
+  {
+    "matchId": "7df97a8d-3eaa-4bfe-aac0-eeb857c54b7f",
+    "player1": {
+      "id": 225,
+      "mmr": 564,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 44
+    },
+    "player2": {
+      "id": 236,
+      "mmr": 1490,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.745521
+  },
+  {
+    "matchId": "df5c076e-7fb1-4132-ad2f-bbc387056b50",
+    "player1": {
+      "id": 241,
+      "mmr": 454,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "player2": {
+      "id": 232,
+      "mmr": 1494,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 44,
+      "lossCount": 44,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7455707
+  },
+  {
+    "matchId": "c9577117-581b-4b4d-900c-7f4a9a22a928",
+    "player1": {
+      "id": 238,
+      "mmr": 1658,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 246,
+      "mmr": 2395,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7455993
+  },
+  {
+    "matchId": "6beee929-d7d9-4367-b0c1-3398ba6e5cf0",
+    "player1": {
+      "id": 252,
+      "mmr": 1818,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 42,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 23
+    },
+    "player2": {
+      "id": 255,
+      "mmr": 385,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 16,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.7456508
+  },
+  {
+    "matchId": "1c419904-d3fa-4257-8bd3-ccca632ef375",
+    "player1": {
+      "id": 248,
+      "mmr": 243,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "player2": {
+      "id": 250,
+      "mmr": 1173,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.745691
+  },
+  {
+    "matchId": "ce906262-6311-4701-b5b6-efe76f903643",
+    "player1": {
+      "id": 258,
+      "mmr": 2091,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 254,
+      "mmr": 2205,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.745722
+  },
+  {
+    "matchId": "1c1107a0-ba90-41ca-ab02-019a437c1ea3",
+    "player1": {
+      "id": 265,
+      "mmr": 1321,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 50,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 268,
+      "mmr": 1093,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 18
+    },
+    "received_timestamp": 1749702794.7457495
+  },
+  {
+    "matchId": "b1123bc1-09a2-4fc5-b79a-598f848c868e",
+    "player1": {
+      "id": 259,
+      "mmr": 2457,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 253,
+      "mmr": 1456,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 3,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7457778
+  },
+  {
+    "matchId": "43394eb7-76a9-4e9c-9ab3-c04a66efd56c",
+    "player1": {
+      "id": 271,
+      "mmr": 1643,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 43,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 28
+    },
+    "player2": {
+      "id": 267,
+      "mmr": 2254,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 19,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 17
+    },
+    "received_timestamp": 1749702794.7458076
+  },
+  {
+    "matchId": "6e1eea69-7d66-43da-bc51-44110215e2f0",
+    "player1": {
+      "id": 244,
+      "mmr": 1727,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 55,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "player2": {
+      "id": 257,
+      "mmr": 915,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 69,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7458363
+  },
+  {
+    "matchId": "e7b6eafe-94d2-42a0-9f27-b702ddfca6af",
+    "player1": {
+      "id": 277,
+      "mmr": 419,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 11,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 20
+    },
+    "player2": {
+      "id": 263,
+      "mmr": 286,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 53,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "received_timestamp": 1749702794.7458632
+  },
+  {
+    "matchId": "19e656fb-d779-475f-97b3-5647e46501cb",
+    "player1": {
+      "id": 269,
+      "mmr": 156,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "player2": {
+      "id": 273,
+      "mmr": 1729,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.7458909
+  },
+  {
+    "matchId": "9f68dfaf-ff3e-448a-99fa-64272ba7e72f",
+    "player1": {
+      "id": 274,
+      "mmr": 1266,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 23
+    },
+    "player2": {
+      "id": 256,
+      "mmr": 2081,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 53,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.745918
+  },
+  {
+    "matchId": "e324cc19-c343-4c55-bcfa-1ca6f81aa3c6",
+    "player1": {
+      "id": 290,
+      "mmr": 96,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 281,
+      "mmr": 2027,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 56,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7459457
+  },
+  {
+    "matchId": "37162d6e-2823-4bb3-bd9e-83d32307782a",
+    "player1": {
+      "id": 202,
+      "mmr": 1023,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 5,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "player2": {
+      "id": 286,
+      "mmr": 1942,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 46,
+      "lossCount": 41,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.745974
+  },
+  {
+    "matchId": "a159c844-ed84-42b6-b2ce-ebfdadd37b93",
+    "player1": {
+      "id": 208,
+      "mmr": 725,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 14,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 13
+    },
+    "player2": {
+      "id": 288,
+      "mmr": 1474,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 44,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.746002
+  },
+  {
+    "matchId": "85af71a4-5473-4346-a5de-f5f943656d88",
+    "player1": {
+      "id": 228,
+      "mmr": 249,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "player2": {
+      "id": 214,
+      "mmr": 860,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 31,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7460294
+  },
+  {
+    "matchId": "2a894c63-7ce9-4218-94d1-14484273c8a3",
+    "player1": {
+      "id": 213,
+      "mmr": 2023,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 44,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 36
+    },
+    "player2": {
+      "id": 270,
+      "mmr": 1824,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 7,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 18
+    },
+    "received_timestamp": 1749702794.7460558
+  },
+  {
+    "matchId": "c5dabcc7-1338-4615-bb41-ca03c69b6e82",
+    "player1": {
+      "id": 261,
+      "mmr": 1068,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "player2": {
+      "id": 251,
+      "mmr": 1069,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 17,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.746085
+  },
+  {
+    "matchId": "73d3b955-8cd0-4907-b035-2e1d9cc400a8",
+    "player1": {
+      "id": 234,
+      "mmr": 1633,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "player2": {
+      "id": 299,
+      "mmr": 2020,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 48,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7461123
+  },
+  {
+    "matchId": "c131ddd2-12af-4676-8c02-ffa6119fa519",
+    "player1": {
+      "id": 284,
+      "mmr": 289,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 31,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "player2": {
+      "id": 260,
+      "mmr": 837,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.74614
+  },
+  {
+    "matchId": "31d2574b-15a6-4307-9f26-f818097a231c",
+    "player1": {
+      "id": 245,
+      "mmr": 477,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 298,
+      "mmr": 329,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 14,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7461681
+  },
+  {
+    "matchId": "432a4946-949e-40f4-ae1c-33abc5915471",
+    "player1": {
+      "id": 249,
+      "mmr": 919,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 22,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 209,
+      "mmr": 2099,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.746196
+  },
+  {
+    "matchId": "0f3997c8-7e50-45dd-809b-a289c8aa969a",
+    "player1": {
+      "id": 272,
+      "mmr": 1361,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "player2": {
+      "id": 291,
+      "mmr": 2697,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 19,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7462246
+  },
+  {
+    "matchId": "c06fde2a-3f0d-4b77-8f23-81dd42bb7b34",
+    "player1": {
+      "id": 292,
+      "mmr": 483,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 18
+    },
+    "player2": {
+      "id": 280,
+      "mmr": 2292,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 20
+    },
+    "received_timestamp": 1749702794.7462533
+  },
+  {
+    "matchId": "325d2003-34ef-4428-a97a-b92bfbe9932a",
+    "player1": {
+      "id": 226,
+      "mmr": 551,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 72,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 50
+    },
+    "player2": {
+      "id": 229,
+      "mmr": 1838,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7462828
+  },
+  {
+    "matchId": "8c672159-3fee-4753-bd9b-fedb304abf3a",
+    "player1": {
+      "id": 237,
+      "mmr": 447,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 27,
+      "tieCount": 4,
+      "lastGameResult": 1,
+      "streak": 3
+    },
+    "player2": {
+      "id": 285,
+      "mmr": 1074,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 13,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 49
+    },
+    "received_timestamp": 1749702794.7463121
+  },
+  {
+    "matchId": "297f1e8f-3afb-48d0-91ca-037a5d53928f",
+    "player1": {
+      "id": 293,
+      "mmr": 119,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 19,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 287,
+      "mmr": 132,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7463427
+  },
+  {
+    "matchId": "9867937c-15bc-425d-9e3b-bdbcda3f066a",
+    "player1": {
+      "id": 206,
+      "mmr": 1645,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 41,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "player2": {
+      "id": 279,
+      "mmr": 1607,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 9,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7463713
+  },
+  {
+    "matchId": "737a42b8-b566-4898-a6d5-6f303d63d021",
+    "player1": {
+      "id": 247,
+      "mmr": 522,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 24,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "player2": {
+      "id": 223,
+      "mmr": 2786,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7463994
+  },
+  {
+    "matchId": "55b8fa7d-1a1e-489e-b1dd-3fbb7ba64710",
+    "player1": {
+      "id": 304,
+      "mmr": 221,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 307,
+      "mmr": 2758,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 24,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.746429
+  },
+  {
+    "matchId": "9f428ad3-1e04-4ce6-ba3a-275443ba4daa",
+    "player1": {
+      "id": 310,
+      "mmr": 2959,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 32,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "player2": {
+      "id": 303,
+      "mmr": 1365,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 37,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.7464566
+  },
+  {
+    "matchId": "d29e2946-e38e-4671-bc70-1925ae1bca7b",
+    "player1": {
+      "id": 311,
+      "mmr": 928,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 12
+    },
+    "player2": {
+      "id": 312,
+      "mmr": 1194,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7464855
+  },
+  {
+    "matchId": "e19b5ed6-f3a7-405e-acfe-a0495fd7c2ca",
+    "player1": {
+      "id": 305,
+      "mmr": 21,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 18,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "player2": {
+      "id": 317,
+      "mmr": 1247,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7465138
+  },
+  {
+    "matchId": "3c387355-a9ab-488c-a51b-98474754203a",
+    "player1": {
+      "id": 320,
+      "mmr": 1937,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "player2": {
+      "id": 316,
+      "mmr": 2482,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 37,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 17
+    },
+    "received_timestamp": 1749702794.746542
+  },
+  {
+    "matchId": "8fb92d39-6aaf-425e-8a8d-20685dd0111b",
+    "player1": {
+      "id": 322,
+      "mmr": 40,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 24,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 328,
+      "mmr": 1965,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 7,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7465706
+  },
+  {
+    "matchId": "fcb95202-7872-495a-8cf8-7d6f7704e4cd",
+    "player1": {
+      "id": 330,
+      "mmr": 1253,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 324,
+      "mmr": 1582,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.746599
+  },
+  {
+    "matchId": "c467bad8-bc56-46f0-a1dc-f80c0daf252d",
+    "player1": {
+      "id": 338,
+      "mmr": 207,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 22,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 38
+    },
+    "player2": {
+      "id": 327,
+      "mmr": 2584,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 57,
+      "lossCount": 32,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "received_timestamp": 1749702794.7466276
+  },
+  {
+    "matchId": "5e084b3d-612b-4fd4-9ce8-c64c1b3a6084",
+    "player1": {
+      "id": 343,
+      "mmr": 376,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 10,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "player2": {
+      "id": 342,
+      "mmr": 2857,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.746656
+  },
+  {
+    "matchId": "96f8ac5e-b626-47f6-b3f8-a2bcd852dcfb",
+    "player1": {
+      "id": 339,
+      "mmr": 926,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 335,
+      "mmr": 2472,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 17,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7466838
+  },
+  {
+    "matchId": "9b334918-944b-4feb-806d-a4ffe594654e",
+    "player1": {
+      "id": 340,
+      "mmr": 188,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 40,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 27
+    },
+    "player2": {
+      "id": 332,
+      "mmr": 1354,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7467105
+  },
+  {
+    "matchId": "dd574086-6e5b-45ee-9994-4449f59cbeb9",
+    "player1": {
+      "id": 355,
+      "mmr": 1180,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "player2": {
+      "id": 346,
+      "mmr": 1150,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.746794
+  },
+  {
+    "matchId": "236f243b-9058-4876-99dc-4c3520622295",
+    "player1": {
+      "id": 325,
+      "mmr": 1660,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "player2": {
+      "id": 351,
+      "mmr": 351,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7468224
+  },
+  {
+    "matchId": "571880c9-82e6-4178-9afb-48d19c05fea2",
+    "player1": {
+      "id": 360,
+      "mmr": 703,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "player2": {
+      "id": 361,
+      "mmr": 1063,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7468498
+  },
+  {
+    "matchId": "aaecff0c-3cc7-4294-b48e-1851a8c5a3ca",
+    "player1": {
+      "id": 362,
+      "mmr": 758,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 47,
+      "lossCount": 46,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 347,
+      "mmr": 287,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 16,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 32
+    },
+    "received_timestamp": 1749702794.7468772
+  },
+  {
+    "matchId": "329ec2a0-a907-4076-869d-94ca75cf6926",
+    "player1": {
+      "id": 368,
+      "mmr": 884,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 29,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "player2": {
+      "id": 367,
+      "mmr": 2072,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 32,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.746905
+  },
+  {
+    "matchId": "857639e4-56bb-4245-b949-bdc9a6fbdd92",
+    "player1": {
+      "id": 350,
+      "mmr": 1538,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 13,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 341,
+      "mmr": 2682,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 40,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.7469323
+  },
+  {
+    "matchId": "28ecb38a-d977-400f-be7b-ea3d864105bd",
+    "player1": {
+      "id": 359,
+      "mmr": 1866,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 377,
+      "mmr": 2636,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.746961
+  },
+  {
+    "matchId": "fe3577e5-cdf9-4822-9edc-e84feaa15168",
+    "player1": {
+      "id": 364,
+      "mmr": 2417,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "player2": {
+      "id": 369,
+      "mmr": 2098,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 38,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 38
+    },
+    "received_timestamp": 1749702794.7469888
+  },
+  {
+    "matchId": "be377c6f-9982-443d-888d-effcf0b44f03",
+    "player1": {
+      "id": 382,
+      "mmr": 274,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 18,
+      "tieCount": 3,
+      "lastGameResult": 1,
+      "streak": 2
+    },
+    "player2": {
+      "id": 381,
+      "mmr": 304,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 18,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7470164
+  },
+  {
+    "matchId": "734d78a9-3739-4371-b293-c1c0176f700b",
+    "player1": {
+      "id": 378,
+      "mmr": 1488,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 68,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 365,
+      "mmr": 2918,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.747053
+  },
+  {
+    "matchId": "8a9e2794-bfe7-4bae-8f1f-0e3f9c9af3ec",
+    "player1": {
+      "id": 358,
+      "mmr": 146,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 394,
+      "mmr": 852,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 40,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7470856
+  },
+  {
+    "matchId": "a02fa99f-2c12-423e-aeb6-3b68ac457865",
+    "player1": {
+      "id": 396,
+      "mmr": 1218,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 64,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 45
+    },
+    "player2": {
+      "id": 371,
+      "mmr": 1803,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 55,
+      "lossCount": 18,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "received_timestamp": 1749702794.7471135
+  },
+  {
+    "matchId": "06a44c5b-d127-4fcf-8520-bdfd0e60596b",
+    "player1": {
+      "id": 306,
+      "mmr": 2987,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 35,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 51
+    },
+    "player2": {
+      "id": 302,
+      "mmr": 2963,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7471442
+  },
+  {
+    "matchId": "f0efd0a8-c12b-4f9a-b084-9263e69a31fe",
+    "player1": {
+      "id": 385,
+      "mmr": 241,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 28
+    },
+    "player2": {
+      "id": 318,
+      "mmr": 718,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.747173
+  },
+  {
+    "matchId": "bf711e6c-6816-4c4f-aee6-af9aefc2c492",
+    "player1": {
+      "id": 383,
+      "mmr": 1424,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 35,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 28
+    },
+    "player2": {
+      "id": 326,
+      "mmr": 124,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 39,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7472012
+  },
+  {
+    "matchId": "25230ef8-68f3-45df-a2c5-034c5c95c02b",
+    "player1": {
+      "id": 357,
+      "mmr": 382,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 24,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 336,
+      "mmr": 901,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 22,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.7472303
+  },
+  {
+    "matchId": "a9f9aade-f26d-400a-b570-fd6a6f040602",
+    "player1": {
+      "id": 321,
+      "mmr": 1403,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 27
+    },
+    "player2": {
+      "id": 348,
+      "mmr": 428,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 2,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.747259
+  },
+  {
+    "matchId": "88cc2654-9d47-4678-ac87-3ef0640b1bcb",
+    "player1": {
+      "id": 354,
+      "mmr": 608,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 387,
+      "mmr": 1268,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 63,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 60
+    },
+    "received_timestamp": 1749702794.7472873
+  },
+  {
+    "matchId": "c3ea3686-8ffb-4b8f-aacc-f2d4e829cece",
+    "player1": {
+      "id": 319,
+      "mmr": 1450,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 48,
+      "lossCount": 7,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "player2": {
+      "id": 398,
+      "mmr": 1470,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 40,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.747317
+  },
+  {
+    "matchId": "46061d40-ea16-4c09-951e-d61679f30b07",
+    "player1": {
+      "id": 380,
+      "mmr": 2742,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 50,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "player2": {
+      "id": 356,
+      "mmr": 2531,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7473474
+  },
+  {
+    "matchId": "94fcc817-63f8-4b2f-a08c-57bcfae0800d",
+    "player1": {
+      "id": 308,
+      "mmr": 1663,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 10,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "player2": {
+      "id": 379,
+      "mmr": 2266,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7473772
+  },
+  {
+    "matchId": "86420d1e-2243-42ad-be52-14d715a938f1",
+    "player1": {
+      "id": 386,
+      "mmr": 1582,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 28,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "player2": {
+      "id": 344,
+      "mmr": 2529,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.747408
+  },
+  {
+    "matchId": "a352372a-a99d-4338-b362-eb20d2b50a27",
+    "player1": {
+      "id": 374,
+      "mmr": 1836,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 61,
+      "lossCount": 24,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 44
+    },
+    "player2": {
+      "id": 363,
+      "mmr": 1767,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7474606
+  },
+  {
+    "matchId": "50d8d6f8-3925-4ab5-8b08-ba24e69ff1ea",
+    "player1": {
+      "id": 388,
+      "mmr": 456,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 64,
+      "lossCount": 10,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 49
+    },
+    "player2": {
+      "id": 390,
+      "mmr": 523,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7474928
+  },
+  {
+    "matchId": "e2108624-b011-44de-bc12-8c1179b31a7c",
+    "player1": {
+      "id": 400,
+      "mmr": 1068,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 29,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 401,
+      "mmr": 2228,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 14,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7475235
+  },
+  {
+    "matchId": "ff1b890e-3d58-4b52-82eb-bb998d25994d",
+    "player1": {
+      "id": 404,
+      "mmr": 1083,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 7
+    },
+    "player2": {
+      "id": 407,
+      "mmr": 1489,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 19,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7475533
+  },
+  {
+    "matchId": "f34be690-7f4d-42f8-9dbb-7176d9dd7d46",
+    "player1": {
+      "id": 412,
+      "mmr": 2910,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 27,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 418,
+      "mmr": 2425,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 50,
+      "lossCount": 22,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.747584
+  },
+  {
+    "matchId": "3930646c-581d-4e89-bec1-58180611e4d1",
+    "player1": {
+      "id": 419,
+      "mmr": 304,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "player2": {
+      "id": 423,
+      "mmr": 2072,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 38,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 32
+    },
+    "received_timestamp": 1749702794.7476132
+  },
+  {
+    "matchId": "640a6d7b-8ce6-4b4e-a003-d8b50790ac0a",
+    "player1": {
+      "id": 420,
+      "mmr": 49,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 19,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "player2": {
+      "id": 428,
+      "mmr": 1608,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.7476435
+  },
+  {
+    "matchId": "93164ad4-d5ae-4221-b7de-9f706db8aaf6",
+    "player1": {
+      "id": 429,
+      "mmr": 1635,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 424,
+      "mmr": 2359,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7476747
+  },
+  {
+    "matchId": "fe2990d6-375a-4153-b248-c559e40b3439",
+    "player1": {
+      "id": 433,
+      "mmr": 1050,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 13,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 425,
+      "mmr": 1461,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7477057
+  },
+  {
+    "matchId": "c1c941af-389a-4459-9e93-65fd47e81c5b",
+    "player1": {
+      "id": 444,
+      "mmr": 423,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 439,
+      "mmr": 383,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 43,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.7477353
+  },
+  {
+    "matchId": "dfb84c82-e49a-41fa-9378-fbc3a7081adc",
+    "player1": {
+      "id": 446,
+      "mmr": 686,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 70,
+      "lossCount": 15,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "player2": {
+      "id": 441,
+      "mmr": 2875,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 48,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "received_timestamp": 1749702794.7477658
+  },
+  {
+    "matchId": "1c2ebed1-d86b-4045-b938-f14fa9470ae5",
+    "player1": {
+      "id": 454,
+      "mmr": 297,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "player2": {
+      "id": 452,
+      "mmr": 360,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 34,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 37
+    },
+    "received_timestamp": 1749702794.7478166
+  },
+  {
+    "matchId": "694203a7-89ef-4e11-bfda-8f9a873eb634",
+    "player1": {
+      "id": 449,
+      "mmr": 249,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 459,
+      "mmr": 195,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 48,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.7478623
+  },
+  {
+    "matchId": "5146cb6c-c5e3-4828-9536-32f71cc5033e",
+    "player1": {
+      "id": 442,
+      "mmr": 2183,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 38
+    },
+    "player2": {
+      "id": 453,
+      "mmr": 2111,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 60,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.7479045
+  },
+  {
+    "matchId": "3dadb5e0-21ef-4dfc-bee0-e47e2089bc1c",
+    "player1": {
+      "id": 468,
+      "mmr": 1687,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "player2": {
+      "id": 434,
+      "mmr": 1509,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 27,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7479384
+  },
+  {
+    "matchId": "476b4a1b-01f7-42d5-961a-dd0a31a8173b",
+    "player1": {
+      "id": 471,
+      "mmr": 1490,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 34,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 33
+    },
+    "player2": {
+      "id": 474,
+      "mmr": 2631,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.7479703
+  },
+  {
+    "matchId": "58fbede1-1a69-4237-bc58-e2115f7784c4",
+    "player1": {
+      "id": 465,
+      "mmr": 1137,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 3,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 456,
+      "mmr": 1934,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 47,
+      "lossCount": 44,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "received_timestamp": 1749702794.748001
+  },
+  {
+    "matchId": "7c6575fd-95e5-486b-a4ce-9cb5db751e60",
+    "player1": {
+      "id": 470,
+      "mmr": 1507,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 8,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 467,
+      "mmr": 1362,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7480328
+  },
+  {
+    "matchId": "f412afc4-8839-4fdf-9a87-98bfef833b4f",
+    "player1": {
+      "id": 473,
+      "mmr": 2087,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 35,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 476,
+      "mmr": 1131,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7480655
+  },
+  {
+    "matchId": "0202929a-5f1e-4f79-95ca-d23357ccb312",
+    "player1": {
+      "id": 483,
+      "mmr": 1251,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 7
+    },
+    "player2": {
+      "id": 472,
+      "mmr": 2489,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 54,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7480967
+  },
+  {
+    "matchId": "4773b6ad-dc21-4f92-929c-2c418ddb79f1",
+    "player1": {
+      "id": 488,
+      "mmr": 2157,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 43,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 487,
+      "mmr": 2176,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 16,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.748128
+  },
+  {
+    "matchId": "90f1ee45-c4a0-4a5c-90ec-c59540546669",
+    "player1": {
+      "id": 462,
+      "mmr": 164,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 53,
+      "lossCount": 19,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 28
+    },
+    "player2": {
+      "id": 489,
+      "mmr": 683,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 42,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "received_timestamp": 1749702794.74816
+  },
+  {
+    "matchId": "9b625024-84a6-4ceb-8921-4e4da55ba8e4",
+    "player1": {
+      "id": 499,
+      "mmr": 1664,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 27,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 48
+    },
+    "player2": {
+      "id": 414,
+      "mmr": 2407,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 41,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "received_timestamp": 1749702794.7481942
+  },
+  {
+    "matchId": "6a0707a6-9b7c-42f9-bf94-ecbcd1447e8b",
+    "player1": {
+      "id": 426,
+      "mmr": 2258,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 55,
+      "lossCount": 39,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 48
+    },
+    "player2": {
+      "id": 494,
+      "mmr": 2224,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7482264
+  },
+  {
+    "matchId": "3e2b4bcd-8e32-4051-be0e-3ffd24ca233b",
+    "player1": {
+      "id": 463,
+      "mmr": 957,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 498,
+      "mmr": 2735,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 49,
+      "lossCount": 17,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7482584
+  },
+  {
+    "matchId": "9d4859f7-9d67-4eea-87fd-b5d17e577a21",
+    "player1": {
+      "id": 450,
+      "mmr": 2898,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 27,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 27
+    },
+    "player2": {
+      "id": 492,
+      "mmr": 2969,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 56,
+      "lossCount": 22,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.74829
+  },
+  {
+    "matchId": "087f21f3-b2a7-4872-80c6-684561e36311",
+    "player1": {
+      "id": 469,
+      "mmr": 2620,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "player2": {
+      "id": 427,
+      "mmr": 2871,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 36,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 24
+    },
+    "received_timestamp": 1749702794.748324
+  },
+  {
+    "matchId": "64ec08e7-2f44-4695-bfee-b53d87cc436d",
+    "player1": {
+      "id": 440,
+      "mmr": 1366,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 421,
+      "mmr": 2781,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7483554
+  },
+  {
+    "matchId": "a738f818-c714-47b4-98b2-7e919f02a1fa",
+    "player1": {
+      "id": 461,
+      "mmr": 1446,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "player2": {
+      "id": 408,
+      "mmr": 1940,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 29,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "received_timestamp": 1749702794.7483888
+  },
+  {
+    "matchId": "8894fd44-d3e4-402a-9353-d3dd23738369",
+    "player1": {
+      "id": 430,
+      "mmr": 633,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 35,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "player2": {
+      "id": 493,
+      "mmr": 859,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7484212
+  },
+  {
+    "matchId": "59e25a8e-2cc3-4cf9-809a-52d7f81c011f",
+    "player1": {
+      "id": 504,
+      "mmr": 924,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 507,
+      "mmr": 1693,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 28,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7484527
+  },
+  {
+    "matchId": "3556b7b4-22a4-446b-80bb-3e139df18e16",
+    "player1": {
+      "id": 509,
+      "mmr": 882,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 53,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "player2": {
+      "id": 514,
+      "mmr": 1696,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.7484882
+  },
+  {
+    "matchId": "398d04bd-9a84-4359-9fab-07c336f1f7a7",
+    "player1": {
+      "id": 516,
+      "mmr": 1823,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 25,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "player2": {
+      "id": 524,
+      "mmr": 2927,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 37,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.74852
+  },
+  {
+    "matchId": "d7de58f4-f2a6-488e-a984-4e59e17b7a5c",
+    "player1": {
+      "id": 515,
+      "mmr": 1044,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 508,
+      "mmr": 1141,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 48,
+      "lossCount": 37,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7485518
+  },
+  {
+    "matchId": "3ad786ea-9680-4720-bb0a-8e3474589a43",
+    "player1": {
+      "id": 530,
+      "mmr": 1175,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 46,
+      "lossCount": 33,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "player2": {
+      "id": 518,
+      "mmr": 2160,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7485824
+  },
+  {
+    "matchId": "0100d356-acfc-47c6-962c-0d5d8f3fee52",
+    "player1": {
+      "id": 536,
+      "mmr": 547,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 502,
+      "mmr": 2646,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7486134
+  },
+  {
+    "matchId": "47b9ec55-51dd-4b40-9c95-5e4bdf84b43c",
+    "player1": {
+      "id": 541,
+      "mmr": 1836,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 511,
+      "mmr": 2437,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 44,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 31
+    },
+    "received_timestamp": 1749702794.748645
+  },
+  {
+    "matchId": "a33759ac-b1c9-45aa-857c-2ea68dbbd6eb",
+    "player1": {
+      "id": 545,
+      "mmr": 1069,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 59,
+      "lossCount": 34,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "player2": {
+      "id": 517,
+      "mmr": 815,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 19
+    },
+    "received_timestamp": 1749702794.7486753
+  },
+  {
+    "matchId": "245de7a3-cf43-455c-baa7-a1b4ce49768c",
+    "player1": {
+      "id": 528,
+      "mmr": 1218,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 28
+    },
+    "player2": {
+      "id": 548,
+      "mmr": 2542,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 38,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.7487068
+  },
+  {
+    "matchId": "f0642c41-0694-4463-a18d-8b01b1d0e6b1",
+    "player1": {
+      "id": 542,
+      "mmr": 798,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 34,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "player2": {
+      "id": 553,
+      "mmr": 223,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7487407
+  },
+  {
+    "matchId": "06454e3c-84d8-456e-8b7f-319a232b1801",
+    "player1": {
+      "id": 558,
+      "mmr": 597,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 15,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 557,
+      "mmr": 2940,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 31,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.7487931
+  },
+  {
+    "matchId": "2f5ead39-76f4-4ca5-87a0-01b863dc372f",
+    "player1": {
+      "id": 526,
+      "mmr": 1223,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 33,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 544,
+      "mmr": 701,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.748829
+  },
+  {
+    "matchId": "0bac054a-0565-4d0b-bb73-5fec756436c3",
+    "player1": {
+      "id": 566,
+      "mmr": 1724,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "player2": {
+      "id": 568,
+      "mmr": 2559,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7488663
+  },
+  {
+    "matchId": "f19912b0-30d5-4c67-b8b9-d0e5a618f2db",
+    "player1": {
+      "id": 546,
+      "mmr": 2528,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 571,
+      "mmr": 342,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 15,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.7489004
+  },
+  {
+    "matchId": "c9fc2971-e2f2-4a65-bf93-372c9652a81a",
+    "player1": {
+      "id": 573,
+      "mmr": 982,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 527,
+      "mmr": 1659,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.7489336
+  },
+  {
+    "matchId": "bf474145-71e8-4eeb-9fa4-2a7c703f78a8",
+    "player1": {
+      "id": 565,
+      "mmr": 1857,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "player2": {
+      "id": 570,
+      "mmr": 1892,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.748966
+  },
+  {
+    "matchId": "8848f40d-ec68-4792-b737-7e5594be258b",
+    "player1": {
+      "id": 576,
+      "mmr": 1719,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 31,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 30
+    },
+    "player2": {
+      "id": 580,
+      "mmr": 340,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 62,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 28
+    },
+    "received_timestamp": 1749702794.748999
+  },
+  {
+    "matchId": "bb08a574-7279-4959-83a0-0cb7d460d059",
+    "player1": {
+      "id": 574,
+      "mmr": 269,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 33,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "player2": {
+      "id": 572,
+      "mmr": 1199,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.74903
+  },
+  {
+    "matchId": "46958e84-2012-4d6c-8b1d-3c8404165f48",
+    "player1": {
+      "id": 563,
+      "mmr": 186,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 1
+    },
+    "player2": {
+      "id": 586,
+      "mmr": 2613,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7490606
+  },
+  {
+    "matchId": "6837fa86-3bd8-4950-8f7c-68a732da62b2",
+    "player1": {
+      "id": 549,
+      "mmr": 2134,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 37,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 31
+    },
+    "player2": {
+      "id": 588,
+      "mmr": 775,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7490914
+  },
+  {
+    "matchId": "619cdccf-8dc3-4947-97c5-8a982da72161",
+    "player1": {
+      "id": 581,
+      "mmr": 21,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 582,
+      "mmr": 1414,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 14,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7491214
+  },
+  {
+    "matchId": "8fe79311-448f-4b57-93a8-1f235c829c47",
+    "player1": {
+      "id": 592,
+      "mmr": 2095,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 37,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "player2": {
+      "id": 585,
+      "mmr": 1383,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 47,
+      "lossCount": 47,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 25
+    },
+    "received_timestamp": 1749702794.7491515
+  },
+  {
+    "matchId": "1d42c08f-13d5-4f42-8f89-bc2134758006",
+    "player1": {
+      "id": 579,
+      "mmr": 215,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 56,
+      "lossCount": 10,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "player2": {
+      "id": 598,
+      "mmr": 1880,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7491827
+  },
+  {
+    "matchId": "9678bc38-d656-4ca4-bf30-c6bd1d081f39",
+    "player1": {
+      "id": 596,
+      "mmr": 1492,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 529,
+      "mmr": 2658,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7492127
+  },
+  {
+    "matchId": "4bdab344-3761-40b9-98e1-23cde92d8bce",
+    "player1": {
+      "id": 552,
+      "mmr": 379,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 21,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 591,
+      "mmr": 2155,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7492428
+  },
+  {
+    "matchId": "8dcda5b5-a3ed-4fa9-8f08-9508f546917b",
+    "player1": {
+      "id": 569,
+      "mmr": 1068,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 36,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "player2": {
+      "id": 554,
+      "mmr": 1150,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7492735
+  },
+  {
+    "matchId": "3ac8c20a-6dfc-4b9e-94bb-81161a3bf0fc",
+    "player1": {
+      "id": 595,
+      "mmr": 1023,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 567,
+      "mmr": 2571,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 16,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7493038
+  },
+  {
+    "matchId": "e2e95d85-0633-4287-9c3b-9259b419a84f",
+    "player1": {
+      "id": 578,
+      "mmr": 773,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 520,
+      "mmr": 1156,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 55,
+      "lossCount": 30,
+      "tieCount": 4,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7493339
+  },
+  {
+    "matchId": "0ec7adbb-395a-4986-b6b5-781ef9a6d402",
+    "player1": {
+      "id": 550,
+      "mmr": 1278,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 55,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 23
+    },
+    "player2": {
+      "id": 547,
+      "mmr": 737,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 31,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7493644
+  },
+  {
+    "matchId": "cd4d2f97-4aa5-42f5-a23f-92780c678f30",
+    "player1": {
+      "id": 510,
+      "mmr": 354,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 54,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 539,
+      "mmr": 2434,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 38,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7493987
+  },
+  {
+    "matchId": "ab7318d6-8d34-45fc-bdd7-7fc3171aa271",
+    "player1": {
+      "id": 533,
+      "mmr": 2093,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 56,
+      "lossCount": 29,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "player2": {
+      "id": 506,
+      "mmr": 557,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 67,
+      "lossCount": 18,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 33
+    },
+    "received_timestamp": 1749702794.7494454
+  },
+  {
+    "matchId": "5faf27e5-a95c-4508-8dc7-fbfb5867797c",
+    "player1": {
+      "id": 589,
+      "mmr": 2207,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "player2": {
+      "id": 593,
+      "mmr": 2018,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 61,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7494786
+  },
+  {
+    "matchId": "0b2fafd2-4afc-4a40-9848-a40a18936644",
+    "player1": {
+      "id": 594,
+      "mmr": 1242,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 538,
+      "mmr": 1047,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 23
+    },
+    "received_timestamp": 1749702794.7495108
+  },
+  {
+    "matchId": "e12bbca6-710d-4aec-bd59-3571e93e3d5c",
+    "player1": {
+      "id": 521,
+      "mmr": 700,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 19,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 590,
+      "mmr": 2597,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 14,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7495422
+  },
+  {
+    "matchId": "f3d29e82-1777-402b-945d-11e7ad8bb043",
+    "player1": {
+      "id": 600,
+      "mmr": 1909,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 58,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 57
+    },
+    "player2": {
+      "id": 601,
+      "mmr": 2836,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 35,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7495735
+  },
+  {
+    "matchId": "69c9664f-1a59-47f1-a749-e02c1768738f",
+    "player1": {
+      "id": 604,
+      "mmr": 1023,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 36,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 27
+    },
+    "player2": {
+      "id": 607,
+      "mmr": 2477,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 23,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.7496047
+  },
+  {
+    "matchId": "ae26a594-49d4-44ad-9f4a-740232ac2324",
+    "player1": {
+      "id": 603,
+      "mmr": 74,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "player2": {
+      "id": 612,
+      "mmr": 1280,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 14,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.749636
+  },
+  {
+    "matchId": "ec3121f1-972a-4e6d-a3a5-e00ccc4273cb",
+    "player1": {
+      "id": 602,
+      "mmr": 616,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 33,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "player2": {
+      "id": 618,
+      "mmr": 911,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7496672
+  },
+  {
+    "matchId": "b0d4b82f-3692-414c-a438-622b9b78ce2d",
+    "player1": {
+      "id": 621,
+      "mmr": 228,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 34,
+      "lossCount": 28,
+      "tieCount": 3,
+      "lastGameResult": 1,
+      "streak": 2
+    },
+    "player2": {
+      "id": 606,
+      "mmr": 1866,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 25,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.7496977
+  },
+  {
+    "matchId": "0b3fb85b-96e3-4d17-8dff-c588aece3d68",
+    "player1": {
+      "id": 631,
+      "mmr": 2574,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 24,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "player2": {
+      "id": 614,
+      "mmr": 1910,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7497296
+  },
+  {
+    "matchId": "cbd33449-5cac-4ad7-8483-f2e82e7d58ef",
+    "player1": {
+      "id": 608,
+      "mmr": 2499,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 45,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 17
+    },
+    "player2": {
+      "id": 633,
+      "mmr": 2538,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 47,
+      "lossCount": 19,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.7497609
+  },
+  {
+    "matchId": "949cc0fc-6e77-42c0-ba37-0c160ac47831",
+    "player1": {
+      "id": 632,
+      "mmr": 1511,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 26
+    },
+    "player2": {
+      "id": 642,
+      "mmr": 362,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7498088
+  },
+  {
+    "matchId": "dc8828ed-a3e4-4194-b888-e5e550528545",
+    "player1": {
+      "id": 640,
+      "mmr": 1137,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "player2": {
+      "id": 648,
+      "mmr": 675,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 24
+    },
+    "received_timestamp": 1749702794.749842
+  },
+  {
+    "matchId": "3e25cc1b-fd70-4c19-b74b-f721fa0da680",
+    "player1": {
+      "id": 634,
+      "mmr": 592,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 620,
+      "mmr": 2581,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 6,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7498734
+  },
+  {
+    "matchId": "ba5afbfb-5ea9-412a-84cc-bd5db1a2e3ce",
+    "player1": {
+      "id": 654,
+      "mmr": 584,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "player2": {
+      "id": 635,
+      "mmr": 448,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 28,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7499044
+  },
+  {
+    "matchId": "5b94560c-14b4-4022-b922-197ae6554c1f",
+    "player1": {
+      "id": 641,
+      "mmr": 1261,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 626,
+      "mmr": 1664,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.749936
+  },
+  {
+    "matchId": "6de0bef8-bebd-48ce-ae44-c237eba2fa2a",
+    "player1": {
+      "id": 646,
+      "mmr": 2238,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 62,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "player2": {
+      "id": 662,
+      "mmr": 2242,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 7,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7499673
+  },
+  {
+    "matchId": "92b092d5-7c63-4372-92a0-83261d56c572",
+    "player1": {
+      "id": 653,
+      "mmr": 704,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 48,
+      "lossCount": 15,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "player2": {
+      "id": 650,
+      "mmr": 579,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 10,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7499988
+  },
+  {
+    "matchId": "35a39651-a1e7-4c6c-ace0-3892a6d804c9",
+    "player1": {
+      "id": 658,
+      "mmr": 2343,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 46
+    },
+    "player2": {
+      "id": 664,
+      "mmr": 2285,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 17,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7500298
+  },
+  {
+    "matchId": "b65e3b42-712a-490f-9edd-c0da77d087b3",
+    "player1": {
+      "id": 666,
+      "mmr": 2916,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 36,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "player2": {
+      "id": 673,
+      "mmr": 2298,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 3,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7500618
+  },
+  {
+    "matchId": "3df1ceff-6e6f-4c06-82c1-1f4fc8ef22ce",
+    "player1": {
+      "id": 644,
+      "mmr": 1994,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 51,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "player2": {
+      "id": 659,
+      "mmr": 2416,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7500932
+  },
+  {
+    "matchId": "39719bd3-e617-4427-a01d-e2d47298c3db",
+    "player1": {
+      "id": 681,
+      "mmr": 1575,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "player2": {
+      "id": 652,
+      "mmr": 37,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 4,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7501245
+  },
+  {
+    "matchId": "cef46722-d56f-4ca8-8fe5-75fa5854e011",
+    "player1": {
+      "id": 684,
+      "mmr": 874,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 42,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 661,
+      "mmr": 1933,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 17,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.7501702
+  },
+  {
+    "matchId": "47b7b3ab-51f2-4175-8db6-656b91414e7a",
+    "player1": {
+      "id": 649,
+      "mmr": 908,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 28,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 688,
+      "mmr": 1863,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.750214
+  },
+  {
+    "matchId": "ee219497-1223-4a40-97b9-7c610ac03d85",
+    "player1": {
+      "id": 685,
+      "mmr": 215,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 25,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 19
+    },
+    "player2": {
+      "id": 692,
+      "mmr": 1378,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 15,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7502475
+  },
+  {
+    "matchId": "d59bc679-8259-4187-8f5c-d4eff4f7f1ee",
+    "player1": {
+      "id": 690,
+      "mmr": 258,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 57,
+      "lossCount": 31,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 695,
+      "mmr": 697,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 45,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.75028
+  },
+  {
+    "matchId": "65080564-fbd2-4f2d-8a55-4386dc3457cc",
+    "player1": {
+      "id": 699,
+      "mmr": 1288,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 43,
+      "lossCount": 13,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 24
+    },
+    "player2": {
+      "id": 674,
+      "mmr": 1516,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 25,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7503114
+  },
+  {
+    "matchId": "6fa58794-6dc3-4b14-aa7b-5cb55eacaab2",
+    "player1": {
+      "id": 611,
+      "mmr": 955,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 40,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 36
+    },
+    "player2": {
+      "id": 687,
+      "mmr": 263,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7503428
+  },
+  {
+    "matchId": "50fb3b0c-ebb7-4762-9a2f-43bb7c551f2f",
+    "player1": {
+      "id": 605,
+      "mmr": 142,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "player2": {
+      "id": 660,
+      "mmr": 2630,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7503753
+  },
+  {
+    "matchId": "e50c125c-0a5e-4db2-a626-0d6997715417",
+    "player1": {
+      "id": 694,
+      "mmr": 117,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 16,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 663,
+      "mmr": 521,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7504075
+  },
+  {
+    "matchId": "deb4f525-bdb9-4867-9cc2-beb1e902de85",
+    "player1": {
+      "id": 672,
+      "mmr": 474,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "player2": {
+      "id": 615,
+      "mmr": 1134,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7504394
+  },
+  {
+    "matchId": "d7158b26-b985-486a-a549-fa1bc0cfd540",
+    "player1": {
+      "id": 656,
+      "mmr": 301,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 12
+    },
+    "player2": {
+      "id": 610,
+      "mmr": 263,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.750473
+  },
+  {
+    "matchId": "86af0591-1bd0-486b-b7c8-8e6b80bd8716",
+    "player1": {
+      "id": 645,
+      "mmr": 1389,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 24
+    },
+    "player2": {
+      "id": 625,
+      "mmr": 452,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.7505045
+  },
+  {
+    "matchId": "5b16536d-85a6-4542-bf9b-c10692e02a66",
+    "player1": {
+      "id": 675,
+      "mmr": 2195,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 15,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "player2": {
+      "id": 670,
+      "mmr": 2223,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 7,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.750537
+  },
+  {
+    "matchId": "7c44b4a8-f9d6-4bec-bcc4-c2e31ad45236",
+    "player1": {
+      "id": 647,
+      "mmr": 1058,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 66,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 34
+    },
+    "player2": {
+      "id": 676,
+      "mmr": 2210,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 50,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7505686
+  },
+  {
+    "matchId": "dd10a9c6-0310-429f-998c-030c4fbdbb22",
+    "player1": {
+      "id": 616,
+      "mmr": 63,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 624,
+      "mmr": 358,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 19,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.7506015
+  },
+  {
+    "matchId": "4945aa6d-ad49-439e-b5d8-28b0387c5fbf",
+    "player1": {
+      "id": 678,
+      "mmr": 1608,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 651,
+      "mmr": 2808,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 69,
+      "lossCount": 25,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 51
+    },
+    "received_timestamp": 1749702794.750635
+  },
+  {
+    "matchId": "2fa04101-941f-4553-8511-deb59d66a034",
+    "player1": {
+      "id": 629,
+      "mmr": 1404,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 617,
+      "mmr": 2040,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 48,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7506676
+  },
+  {
+    "matchId": "c972002e-5a1a-4571-b57f-1de6a9ab9eb3",
+    "player1": {
+      "id": 700,
+      "mmr": 824,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 35,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 701,
+      "mmr": 1617,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7507014
+  },
+  {
+    "matchId": "ef57b9f3-d681-4efe-9331-e3d296682679",
+    "player1": {
+      "id": 703,
+      "mmr": 1147,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 711,
+      "mmr": 1304,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 31,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 38
+    },
+    "received_timestamp": 1749702794.7507346
+  },
+  {
+    "matchId": "40ca3c23-8695-424f-83bd-ae509e00cd6f",
+    "player1": {
+      "id": 705,
+      "mmr": 1773,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 32,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 713,
+      "mmr": 2334,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7507663
+  },
+  {
+    "matchId": "cfee5511-ba23-4165-852c-006364a8f518",
+    "player1": {
+      "id": 712,
+      "mmr": 2006,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 718,
+      "mmr": 2417,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7507992
+  },
+  {
+    "matchId": "10565ef2-9dfd-418b-b39e-dd6ba6b33c73",
+    "player1": {
+      "id": 709,
+      "mmr": 902,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 48,
+      "lossCount": 43,
+      "tieCount": 5,
+      "lastGameResult": 1,
+      "streak": 3
+    },
+    "player2": {
+      "id": 723,
+      "mmr": 2707,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7508311
+  },
+  {
+    "matchId": "e29393a2-9167-4839-98c7-d2162ea0617a",
+    "player1": {
+      "id": 715,
+      "mmr": 1794,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 0,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 724,
+      "mmr": 2489,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.750864
+  },
+  {
+    "matchId": "94c04b63-626d-429e-a767-b94e5e0c126f",
+    "player1": {
+      "id": 730,
+      "mmr": 305,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 9,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 16
+    },
+    "player2": {
+      "id": 733,
+      "mmr": 1885,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "received_timestamp": 1749702794.750897
+  },
+  {
+    "matchId": "bb41ea24-a0c4-4419-9a2d-40455502af5c",
+    "player1": {
+      "id": 734,
+      "mmr": 1977,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 19,
+      "lossCount": 13,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "player2": {
+      "id": 736,
+      "mmr": 2524,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 23,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.750929
+  },
+  {
+    "matchId": "3c2f80d2-64b1-4dd0-b38c-4e4686f6bd6d",
+    "player1": {
+      "id": 720,
+      "mmr": 663,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 741,
+      "mmr": 1291,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.750961
+  },
+  {
+    "matchId": "e8d91d5c-c535-41ac-ac64-848ef74a2680",
+    "player1": {
+      "id": 737,
+      "mmr": 322,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 745,
+      "mmr": 2822,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7509937
+  },
+  {
+    "matchId": "474483d1-ceec-4425-a937-fa08b87a9bf5",
+    "player1": {
+      "id": 732,
+      "mmr": 1407,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 12,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 743,
+      "mmr": 1452,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.751026
+  },
+  {
+    "matchId": "b831f5e6-d0be-4f53-95c3-4f3b55c5c821",
+    "player1": {
+      "id": 750,
+      "mmr": 2213,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 34,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 18
+    },
+    "player2": {
+      "id": 742,
+      "mmr": 2101,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 50,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 30
+    },
+    "received_timestamp": 1749702794.751058
+  },
+  {
+    "matchId": "f5f2c24a-8d30-4588-a45c-b885f7f092d2",
+    "player1": {
+      "id": 753,
+      "mmr": 2839,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 31,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 756,
+      "mmr": 2057,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7510903
+  },
+  {
+    "matchId": "f97c9603-9ab2-4500-8c31-517cbb34a4b1",
+    "player1": {
+      "id": 752,
+      "mmr": 1117,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 714,
+      "mmr": 2574,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 50,
+      "lossCount": 16,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "received_timestamp": 1749702794.7511222
+  },
+  {
+    "matchId": "6d7cc746-e8d1-48f6-b74b-252d383d881a",
+    "player1": {
+      "id": 757,
+      "mmr": 336,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 754,
+      "mmr": 626,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7511544
+  },
+  {
+    "matchId": "4162cd14-d1b0-45e5-8e99-b595f1ee160a",
+    "player1": {
+      "id": 722,
+      "mmr": 2111,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 26,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "player2": {
+      "id": 762,
+      "mmr": 2487,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 14,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7511868
+  },
+  {
+    "matchId": "c3bc9bc4-6ea2-4db2-8b04-26cc44309eb5",
+    "player1": {
+      "id": 766,
+      "mmr": 1429,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 57,
+      "lossCount": 28,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "player2": {
+      "id": 768,
+      "mmr": 2075,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 33,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7512195
+  },
+  {
+    "matchId": "f3818375-45ff-41c9-8542-2dca53adbde3",
+    "player1": {
+      "id": 749,
+      "mmr": 1473,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 761,
+      "mmr": 1927,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7512512
+  },
+  {
+    "matchId": "e6514c63-623b-4535-8dd7-cb906f2652b0",
+    "player1": {
+      "id": 773,
+      "mmr": 1209,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 40,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 31
+    },
+    "player2": {
+      "id": 747,
+      "mmr": 2719,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 5,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7512836
+  },
+  {
+    "matchId": "f6a246a7-4bf6-4263-9bc4-cb5c7abb8ffe",
+    "player1": {
+      "id": 728,
+      "mmr": 2198,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "player2": {
+      "id": 769,
+      "mmr": 1988,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 23,
+      "lossCount": 18,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7513168
+  },
+  {
+    "matchId": "7c078356-8a79-41fc-983f-29a58177ebe6",
+    "player1": {
+      "id": 781,
+      "mmr": 180,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 3,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "player2": {
+      "id": 783,
+      "mmr": 1924,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 54,
+      "lossCount": 31,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7513509
+  },
+  {
+    "matchId": "a3423b5a-f3f1-4c88-83a8-9f4ffcbd3198",
+    "player1": {
+      "id": 786,
+      "mmr": 714,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 32,
+      "lossCount": 5,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 30
+    },
+    "player2": {
+      "id": 774,
+      "mmr": 1336,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 23,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 12
+    },
+    "received_timestamp": 1749702794.751384
+  },
+  {
+    "matchId": "a7dc1c30-968d-4f44-a029-bfd80bd36487",
+    "player1": {
+      "id": 785,
+      "mmr": 1924,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 28,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 793,
+      "mmr": 1565,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 17
+    },
+    "received_timestamp": 1749702794.751417
+  },
+  {
+    "matchId": "69244570-5eb1-4564-91f0-ee23c5ac0dda",
+    "player1": {
+      "id": 794,
+      "mmr": 308,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 80,
+      "lossCount": 9,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 64
+    },
+    "player2": {
+      "id": 790,
+      "mmr": 2537,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 15,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7514763
+  },
+  {
+    "matchId": "3f63390f-8069-4eff-846f-909cce3ebbdd",
+    "player1": {
+      "id": 764,
+      "mmr": 58,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 34,
+      "lossCount": 38,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 9
+    },
+    "player2": {
+      "id": 788,
+      "mmr": 688,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7515132
+  },
+  {
+    "matchId": "50390d2d-8efd-4258-a75b-282e45fa5fa4",
+    "player1": {
+      "id": 767,
+      "mmr": 1999,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 54,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "player2": {
+      "id": 799,
+      "mmr": 1544,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 34,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7515473
+  },
+  {
+    "matchId": "89aa93b4-beb3-4a88-8ec1-c87358627147",
+    "player1": {
+      "id": 795,
+      "mmr": 945,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 727,
+      "mmr": 1045,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 33,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 17
+    },
+    "received_timestamp": 1749702794.7515802
+  },
+  {
+    "matchId": "9d84b1cb-2e12-4138-a76f-3ed42ea4d4e0",
+    "player1": {
+      "id": 779,
+      "mmr": 515,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 5,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "player2": {
+      "id": 758,
+      "mmr": 2100,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 3,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7516131
+  },
+  {
+    "matchId": "8879bc4f-0169-4672-99de-b261d0bd0e9e",
+    "player1": {
+      "id": 775,
+      "mmr": 227,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 48,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 23
+    },
+    "player2": {
+      "id": 792,
+      "mmr": 904,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 25,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "received_timestamp": 1749702794.7516468
+  },
+  {
+    "matchId": "9cfd859a-3cc5-4b6c-9b78-c530ef8a8a5d",
+    "player1": {
+      "id": 719,
+      "mmr": 302,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 797,
+      "mmr": 1178,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 14,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7516818
+  },
+  {
+    "matchId": "e49fd087-db5a-4441-8f6e-bb9202fe74cf",
+    "player1": {
+      "id": 726,
+      "mmr": 75,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 31,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 717,
+      "mmr": 696,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 38,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7517152
+  },
+  {
+    "matchId": "6fb00981-4279-4295-9481-d8d61e5fb72d",
+    "player1": {
+      "id": 796,
+      "mmr": 911,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 14,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 789,
+      "mmr": 1490,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7517478
+  },
+  {
+    "matchId": "efcb27be-d54d-4dc9-ad49-31ecd6b6db5b",
+    "player1": {
+      "id": 787,
+      "mmr": 100,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 61,
+      "lossCount": 11,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 748,
+      "mmr": 2068,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 69,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 21
+    },
+    "received_timestamp": 1749702794.7517815
+  },
+  {
+    "matchId": "de000b40-f01d-4bad-840c-b060f96058f3",
+    "player1": {
+      "id": 776,
+      "mmr": 364,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 47,
+      "lossCount": 32,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 740,
+      "mmr": 543,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 44,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 34
+    },
+    "received_timestamp": 1749702794.7518153
+  },
+  {
+    "matchId": "414264ac-ab68-44ba-97c1-f0b687a3ea5c",
+    "player1": {
+      "id": 791,
+      "mmr": 282,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "player2": {
+      "id": 759,
+      "mmr": 2929,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 13,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.7518485
+  },
+  {
+    "matchId": "30377978-b200-4b7d-a202-7bacf796520f",
+    "player1": {
+      "id": 721,
+      "mmr": 1520,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "player2": {
+      "id": 708,
+      "mmr": 2898,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7518826
+  },
+  {
+    "matchId": "16100370-21e6-48f8-9b94-eabf51935343",
+    "player1": {
+      "id": 731,
+      "mmr": 533,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 34,
+      "lossCount": 52,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "player2": {
+      "id": 778,
+      "mmr": 2543,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 33,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7519166
+  },
+  {
+    "matchId": "93f4a4b0-fd21-4f53-ae57-987cccbe2610",
+    "player1": {
+      "id": 702,
+      "mmr": 1808,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 751,
+      "mmr": 537,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 49,
+      "lossCount": 45,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 41
+    },
+    "received_timestamp": 1749702794.7519503
+  },
+  {
+    "matchId": "d5cebde7-add5-4a08-835d-c3c8e3acd535",
+    "player1": {
+      "id": 739,
+      "mmr": 410,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 24,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 735,
+      "mmr": 211,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.751984
+  },
+  {
+    "matchId": "93696be9-dc8a-4c58-9b0a-240f45699f36",
+    "player1": {
+      "id": 804,
+      "mmr": 512,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 38,
+      "lossCount": 26,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 37
+    },
+    "player2": {
+      "id": 807,
+      "mmr": 947,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 17,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.752018
+  },
+  {
+    "matchId": "a3793257-26c0-4637-a1dc-df6d17e99a25",
+    "player1": {
+      "id": 811,
+      "mmr": 1905,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 35,
+      "lossCount": 49,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 812,
+      "mmr": 1529,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 25
+    },
+    "received_timestamp": 1749702794.752052
+  },
+  {
+    "matchId": "47f23ef2-9a68-4369-b15d-0fa26533c4d9",
+    "player1": {
+      "id": 805,
+      "mmr": 1063,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 57,
+      "lossCount": 29,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 817,
+      "mmr": 1914,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 13,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.752086
+  },
+  {
+    "matchId": "b37aea95-aaff-433d-a085-aaeb3716ddcf",
+    "player1": {
+      "id": 820,
+      "mmr": 2146,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 816,
+      "mmr": 2174,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 33,
+      "lossCount": 24,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.7521205
+  },
+  {
+    "matchId": "6e94afba-e875-4d76-8ffc-1cf40dd43ef8",
+    "player1": {
+      "id": 815,
+      "mmr": 287,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 39,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "player2": {
+      "id": 821,
+      "mmr": 336,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7521546
+  },
+  {
+    "matchId": "c56d593e-5734-4af2-a0e0-7538f00332b9",
+    "player1": {
+      "id": 809,
+      "mmr": 1750,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 24,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 826,
+      "mmr": 2401,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7521887
+  },
+  {
+    "matchId": "0d5108fd-31c3-4a63-9dfb-ca8559a605a9",
+    "player1": {
+      "id": 827,
+      "mmr": 2028,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 32,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 4
+    },
+    "player2": {
+      "id": 814,
+      "mmr": 663,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 51,
+      "lossCount": 38,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 46
+    },
+    "received_timestamp": 1749702794.7522235
+  },
+  {
+    "matchId": "f3c91bfd-e6d9-4d24-b840-d694c494d763",
+    "player1": {
+      "id": 832,
+      "mmr": 719,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "player2": {
+      "id": 831,
+      "mmr": 1550,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7522573
+  },
+  {
+    "matchId": "90d3d5d6-fc5e-4d7c-a3ed-0bf9ef95a09f",
+    "player1": {
+      "id": 819,
+      "mmr": 1149,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 43,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "player2": {
+      "id": 824,
+      "mmr": 43,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 16,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 39
+    },
+    "received_timestamp": 1749702794.7522917
+  },
+  {
+    "matchId": "6f9c31a0-aa9b-4eb9-9f9c-a07fe00b9d89",
+    "player1": {
+      "id": 833,
+      "mmr": 2711,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 29,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 27
+    },
+    "player2": {
+      "id": 843,
+      "mmr": 1731,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 40,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.7523258
+  },
+  {
+    "matchId": "dabec1a5-ca7f-47a7-b295-b21671d46209",
+    "player1": {
+      "id": 842,
+      "mmr": 1195,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 830,
+      "mmr": 2056,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 66,
+      "lossCount": 24,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 31
+    },
+    "received_timestamp": 1749702794.752361
+  },
+  {
+    "matchId": "d94c97e7-9bcd-4dae-bf0f-84ee03aaf0e5",
+    "player1": {
+      "id": 847,
+      "mmr": 2106,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "player2": {
+      "id": 853,
+      "mmr": 2746,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.7523968
+  },
+  {
+    "matchId": "02040dd3-95f6-403e-8f75-e0448cafac43",
+    "player1": {
+      "id": 841,
+      "mmr": 235,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 0,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 857,
+      "mmr": 1666,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 18
+    },
+    "received_timestamp": 1749702794.7524583
+  },
+  {
+    "matchId": "239575e5-52b8-43ed-a500-5571b7866f17",
+    "player1": {
+      "id": 854,
+      "mmr": 1724,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 75,
+      "lossCount": 11,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 59
+    },
+    "player2": {
+      "id": 839,
+      "mmr": 2031,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7524934
+  },
+  {
+    "matchId": "df0f6ef8-235c-42ed-8510-896482d0e709",
+    "player1": {
+      "id": 862,
+      "mmr": 2177,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 858,
+      "mmr": 2050,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 42,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "received_timestamp": 1749702794.7525284
+  },
+  {
+    "matchId": "23b7ebfb-723d-40d8-b06b-1372cc4af05d",
+    "player1": {
+      "id": 850,
+      "mmr": 575,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 868,
+      "mmr": 591,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.7525625
+  },
+  {
+    "matchId": "c20dfe7f-b828-43db-ac48-3e9e467566be",
+    "player1": {
+      "id": 871,
+      "mmr": 1378,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 36,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 35
+    },
+    "player2": {
+      "id": 822,
+      "mmr": 1900,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 25,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7525976
+  },
+  {
+    "matchId": "7b2c5459-9378-45b1-94dc-6188b86f05cf",
+    "player1": {
+      "id": 886,
+      "mmr": 35,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 37,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "player2": {
+      "id": 875,
+      "mmr": 2347,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.752632
+  },
+  {
+    "matchId": "53b74fc5-21aa-451b-a96e-ab291188a314",
+    "player1": {
+      "id": 887,
+      "mmr": 2218,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 31,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 5
+    },
+    "player2": {
+      "id": 884,
+      "mmr": 2450,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.752666
+  },
+  {
+    "matchId": "152884ed-98eb-4f75-ada9-be0980398189",
+    "player1": {
+      "id": 890,
+      "mmr": 1391,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "player2": {
+      "id": 863,
+      "mmr": 153,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 45,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 37
+    },
+    "received_timestamp": 1749702794.752701
+  },
+  {
+    "matchId": "17e7e3fa-2c79-4f43-ae30-5b9d727f8bc3",
+    "player1": {
+      "id": 864,
+      "mmr": 485,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 70,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "player2": {
+      "id": 895,
+      "mmr": 2453,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 15,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "received_timestamp": 1749702794.7527459
+  },
+  {
+    "matchId": "727bc729-f966-44e5-9265-3b18e66d4e3a",
+    "player1": {
+      "id": 888,
+      "mmr": 680,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 56,
+      "lossCount": 29,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 855,
+      "mmr": 1713,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7528129
+  },
+  {
+    "matchId": "98c4190f-9c29-434c-8788-16d95e1f679c",
+    "player1": {
+      "id": 896,
+      "mmr": 1443,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 29,
+      "lossCount": 21,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 889,
+      "mmr": 948,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 65,
+      "lossCount": 21,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 37
+    },
+    "received_timestamp": 1749702794.7528834
+  },
+  {
+    "matchId": "a20d0df8-9dc9-4c84-9e10-c18f7d934277",
+    "player1": {
+      "id": 840,
+      "mmr": 359,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "player2": {
+      "id": 894,
+      "mmr": 2891,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 17,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 14
+    },
+    "received_timestamp": 1749702794.7529461
+  },
+  {
+    "matchId": "69d61611-176d-4e27-94c7-586683bda250",
+    "player1": {
+      "id": 891,
+      "mmr": 333,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 892,
+      "mmr": 1138,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 36,
+      "lossCount": 34,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "received_timestamp": 1749702794.7529979
+  },
+  {
+    "matchId": "979363a3-672d-422c-9ef3-1bf95a3c86a2",
+    "player1": {
+      "id": 835,
+      "mmr": 1669,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 44,
+      "lossCount": 27,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 19
+    },
+    "player2": {
+      "id": 880,
+      "mmr": 1446,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 45,
+      "lossCount": 42,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 11
+    },
+    "received_timestamp": 1749702794.7530353
+  },
+  {
+    "matchId": "c4f09f68-f422-4bfc-a9f4-08116c724399",
+    "player1": {
+      "id": 808,
+      "mmr": 1214,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 52,
+      "lossCount": 38,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 39
+    },
+    "player2": {
+      "id": 885,
+      "mmr": 2412,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7530708
+  },
+  {
+    "matchId": "dea97a60-c63d-4577-9294-9cad60a8a494",
+    "player1": {
+      "id": 879,
+      "mmr": 1943,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 10,
+      "lossCount": 3,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 6
+    },
+    "player2": {
+      "id": 844,
+      "mmr": 2404,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 56,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 31
+    },
+    "received_timestamp": 1749702794.7531056
+  },
+  {
+    "matchId": "45a2cb2b-afe4-4d92-99b6-db7e6ff18a8c",
+    "player1": {
+      "id": 851,
+      "mmr": 1900,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 0
+    },
+    "player2": {
+      "id": 848,
+      "mmr": 1757,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 49,
+      "lossCount": 25,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 42
+    },
+    "received_timestamp": 1749702794.7531407
+  },
+  {
+    "matchId": "4f7b9f4f-5291-4ab2-b2b0-31c05cc42f2a",
+    "player1": {
+      "id": 897,
+      "mmr": 950,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 48,
+      "lossCount": 37,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "player2": {
+      "id": 878,
+      "mmr": 1563,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 58,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.7531843
+  },
+  {
+    "matchId": "a79ef541-ef6a-473e-bd56-58a3ad906a3a",
+    "player1": {
+      "id": 900,
+      "mmr": 222,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 16,
+      "lossCount": 50,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "player2": {
+      "id": 901,
+      "mmr": 2185,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 34,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "received_timestamp": 1749702794.753223
+  },
+  {
+    "matchId": "48e59362-493b-47c8-adec-a6f7ede22542",
+    "player1": {
+      "id": 904,
+      "mmr": 127,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 21,
+      "lossCount": 53,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 41
+    },
+    "player2": {
+      "id": 907,
+      "mmr": 247,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 0,
+      "lastGameResult": 1,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7532597
+  },
+  {
+    "matchId": "e898dd48-7dd0-4554-8a96-229f25c7f27f",
+    "player1": {
+      "id": 903,
+      "mmr": 1642,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 42,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 19
+    },
+    "player2": {
+      "id": 912,
+      "mmr": 1952,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 20,
+      "lossCount": 10,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 19
+    },
+    "received_timestamp": 1749702794.7532957
+  },
+  {
+    "matchId": "2f36af83-d4e8-4590-8e05-b62eab3deeaa",
+    "player1": {
+      "id": 909,
+      "mmr": 97,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 28,
+      "tieCount": 4,
+      "lastGameResult": 1,
+      "streak": 3
+    },
+    "player2": {
+      "id": 913,
+      "mmr": 229,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 20,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7533312
+  },
+  {
+    "matchId": "13203483-2ed3-428b-b795-1da6942d5157",
+    "player1": {
+      "id": 921,
+      "mmr": 637,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 906,
+      "mmr": 1415,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 26,
+      "lossCount": 33,
+      "tieCount": 3,
+      "lastGameResult": 1,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7533672
+  },
+  {
+    "matchId": "b1d0ff6e-e4c4-4cdc-b58a-a250aac58081",
+    "player1": {
+      "id": 931,
+      "mmr": 519,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 2,
+      "lossCount": 7,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "player2": {
+      "id": 930,
+      "mmr": 1115,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 41,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 26
+    },
+    "received_timestamp": 1749702794.7534034
+  },
+  {
+    "matchId": "bace6e12-4693-44d0-8d9e-6456ad65fb1c",
+    "player1": {
+      "id": 935,
+      "mmr": 2177,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 31,
+      "lossCount": 19,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 908,
+      "mmr": 2278,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 3,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.753439
+  },
+  {
+    "matchId": "f661ae71-6625-4c80-8afc-fae1fc9f0cb0",
+    "player1": {
+      "id": 940,
+      "mmr": 776,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "player2": {
+      "id": 942,
+      "mmr": 2748,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 30,
+      "lossCount": 46,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 42
+    },
+    "received_timestamp": 1749702794.7534916
+  },
+  {
+    "matchId": "1cfda540-a453-4d1a-942c-72482dfa68ec",
+    "player1": {
+      "id": 933,
+      "mmr": 394,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 40,
+      "lossCount": 26,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 38
+    },
+    "player2": {
+      "id": 949,
+      "mmr": 709,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 53,
+      "lossCount": 30,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 23
+    },
+    "received_timestamp": 1749702794.75353
+  },
+  {
+    "matchId": "9c2c98a2-4731-436f-8783-9199d6a592e4",
+    "player1": {
+      "id": 939,
+      "mmr": 1965,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 952,
+      "mmr": 2894,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 10,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 2
+    },
+    "received_timestamp": 1749702794.7535677
+  },
+  {
+    "matchId": "9dea0368-e5d3-4b11-bcbd-f3cbe2031d94",
+    "player1": {
+      "id": 955,
+      "mmr": 703,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 11,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "player2": {
+      "id": 919,
+      "mmr": 2779,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 39,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 9
+    },
+    "received_timestamp": 1749702794.7536054
+  },
+  {
+    "matchId": "8e4fa587-48d1-4717-a5b9-6d78cd3fdf99",
+    "player1": {
+      "id": 956,
+      "mmr": 1519,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 920,
+      "mmr": 2056,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 3,
+      "tieCount": 0,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.7536428
+  },
+  {
+    "matchId": "a265b876-ddfb-4929-b143-58033188ff43",
+    "player1": {
+      "id": 961,
+      "mmr": 624,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 19,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 26
+    },
+    "player2": {
+      "id": 938,
+      "mmr": 821,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 8,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.75368
+  },
+  {
+    "matchId": "e0780b8e-3fff-41ba-b02d-8e5e01b3ee0e",
+    "player1": {
+      "id": 967,
+      "mmr": 245,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 53,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 957,
+      "mmr": 2570,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 6,
+      "lossCount": 6,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7537165
+  },
+  {
+    "matchId": "bc37d37a-82b6-4933-8a6f-32a3e980bd15",
+    "player1": {
+      "id": 937,
+      "mmr": 849,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 21,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "player2": {
+      "id": 964,
+      "mmr": 1439,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 54,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 13
+    },
+    "received_timestamp": 1749702794.753754
+  },
+  {
+    "matchId": "053e805f-cd6f-4af9-be8c-371f2ab89c8b",
+    "player1": {
+      "id": 948,
+      "mmr": 2122,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 27,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 19
+    },
+    "player2": {
+      "id": 970,
+      "mmr": 1601,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 41,
+      "lossCount": 23,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 39
+    },
+    "received_timestamp": 1749702794.7537904
+  },
+  {
+    "matchId": "e361f952-0fca-4c6d-8eb2-df9e0afc0dba",
+    "player1": {
+      "id": 974,
+      "mmr": 797,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 23,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 20
+    },
+    "player2": {
+      "id": 963,
+      "mmr": 2720,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 44,
+      "lossCount": 43,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 5
+    },
+    "received_timestamp": 1749702794.7538278
+  },
+  {
+    "matchId": "4ed9ec05-a808-4529-b5f3-181c494f44ef",
+    "player1": {
+      "id": 969,
+      "mmr": 594,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 5,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 968,
+      "mmr": 951,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 29,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7538655
+  },
+  {
+    "matchId": "b1504fe1-b322-4887-afb5-e6104aeb6652",
+    "player1": {
+      "id": 979,
+      "mmr": 2975,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 5,
+      "lossCount": 69,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "player2": {
+      "id": 980,
+      "mmr": 2245,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 29,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7539032
+  },
+  {
+    "matchId": "3c5c9dd8-da41-40cf-acfb-892da5ac5935",
+    "player1": {
+      "id": 982,
+      "mmr": 1794,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "player2": {
+      "id": 975,
+      "mmr": 1679,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 4,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.753945
+  },
+  {
+    "matchId": "88e7930a-d699-40c0-b1e5-1a4f80c0dc4c",
+    "player1": {
+      "id": 976,
+      "mmr": 974,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 37,
+      "lossCount": 18,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 35
+    },
+    "player2": {
+      "id": 985,
+      "mmr": 1874,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 49,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 15
+    },
+    "received_timestamp": 1749702794.754027
+  },
+  {
+    "matchId": "e9ef6a7c-9ae6-4d9c-a3d5-0d56a3e75384",
+    "player1": {
+      "id": 977,
+      "mmr": 921,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 24,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 28
+    },
+    "player2": {
+      "id": 988,
+      "mmr": 604,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 7,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7540822
+  },
+  {
+    "matchId": "7cc6c18c-dc79-4d1b-842b-6f764664ef4d",
+    "player1": {
+      "id": 972,
+      "mmr": 2172,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 39,
+      "lossCount": 33,
+      "tieCount": 4,
+      "lastGameResult": 2,
+      "streak": 15
+    },
+    "player2": {
+      "id": 992,
+      "mmr": 2097,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 1,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "received_timestamp": 1749702794.7541206
+  },
+  {
+    "matchId": "fd78749c-559b-454d-a0b6-5a04b6e876a5",
+    "player1": {
+      "id": 990,
+      "mmr": 1670,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 14,
+      "lossCount": 53,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 40
+    },
+    "player2": {
+      "id": 995,
+      "mmr": 1136,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 39,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 3
+    },
+    "received_timestamp": 1749702794.754158
+  },
+  {
+    "matchId": "72903ef2-e777-4607-82de-6a80f94d5461",
+    "player1": {
+      "id": 997,
+      "mmr": 802,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "player2": {
+      "id": 978,
+      "mmr": 1889,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 12,
+      "lossCount": 19,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7541957
+  },
+  {
+    "matchId": "5f71095f-4d4f-493c-ac68-71ce988b6f10",
+    "player1": {
+      "id": 959,
+      "mmr": 685,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 27,
+      "lossCount": 15,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 10
+    },
+    "player2": {
+      "id": 994,
+      "mmr": 412,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 44,
+      "lossCount": 44,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 36
+    },
+    "received_timestamp": 1749702794.7542403
+  },
+  {
+    "matchId": "055ea19b-cc95-49a1-bd3b-c6108428e485",
+    "player1": {
+      "id": 984,
+      "mmr": 1460,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 11,
+      "lossCount": 13,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "player2": {
+      "id": 983,
+      "mmr": 2970,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 36,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 19
+    },
+    "received_timestamp": 1749702794.7542782
+  },
+  {
+    "matchId": "e02024f9-59ef-4198-982c-1c890f72b06d",
+    "player1": {
+      "id": 953,
+      "mmr": 773,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 30,
+      "tieCount": 3,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "player2": {
+      "id": 947,
+      "mmr": 1404,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 16,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7543163
+  },
+  {
+    "matchId": "02c8ce94-2bb7-4993-ab8f-d4f22a6db8db",
+    "player1": {
+      "id": 986,
+      "mmr": 806,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 7,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 0,
+      "streak": 2
+    },
+    "player2": {
+      "id": 962,
+      "mmr": 2331,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 10,
+      "tieCount": 2,
+      "lastGameResult": 2,
+      "streak": 1
+    },
+    "received_timestamp": 1749702794.7543528
+  },
+  {
+    "matchId": "c010c373-61a7-4c1b-9ec7-a71bc048d85c",
+    "player1": {
+      "id": 971,
+      "mmr": 221,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 17,
+      "lossCount": 12,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 3
+    },
+    "player2": {
+      "id": 946,
+      "mmr": 1112,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 25,
+      "lossCount": 56,
+      "tieCount": 4,
+      "lastGameResult": 0,
+      "streak": 28
+    },
+    "received_timestamp": 1749702794.7543895
+  },
+  {
+    "matchId": "ab9bd33a-9dc0-4920-8ea4-6b0e4b00ff72",
+    "player1": {
+      "id": 934,
+      "mmr": 2351,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 28,
+      "lossCount": 35,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 16
+    },
+    "player2": {
+      "id": 965,
+      "mmr": 2083,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 13,
+      "lossCount": 9,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 7
+    },
+    "received_timestamp": 1749702794.7544277
+  },
+  {
+    "matchId": "8756a2d0-bf90-4aa3-b0c8-90a0ab6bea96",
+    "player1": {
+      "id": 917,
+      "mmr": 2099,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 1,
+      "lossCount": 2,
+      "tieCount": 0,
+      "lastGameResult": 0,
+      "streak": 0
+    },
+    "player2": {
+      "id": 999,
+      "mmr": 2986,
+      "region": "NA",
+      "churnLikelihood": 0.0,
+      "winCount": 42,
+      "lossCount": 47,
+      "tieCount": 5,
+      "lastGameResult": 0,
+      "streak": 25
+    },
+    "received_timestamp": 1749702794.7544756
+  },
+  {
+    "matchId": "87253b32-0c6d-40a3-b5f7-85d1439c367b",
+    "player1": {
+      "id": 993,
+      "mmr": 550,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 22,
+      "lossCount": 22,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 6
+    },
+    "player2": {
+      "id": 932,
+      "mmr": 351,
+      "region": "ASIA",
+      "churnLikelihood": 0.0,
+      "winCount": 9,
+      "lossCount": 11,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 8
+    },
+    "received_timestamp": 1749702794.7545707
+  },
+  {
+    "matchId": "e84aa861-d2b8-44c9-8d5d-5475afabd202",
+    "player1": {
+      "id": 973,
+      "mmr": 1628,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 55,
+      "lossCount": 38,
+      "tieCount": 5,
+      "lastGameResult": 2,
+      "streak": 13
+    },
+    "player2": {
+      "id": 981,
+      "mmr": 1866,
+      "region": "EU",
+      "churnLikelihood": 0.0,
+      "winCount": 47,
+      "lossCount": 18,
+      "tieCount": 3,
+      "lastGameResult": 0,
+      "streak": 10
+    },
+    "received_timestamp": 1749702794.7546556
+  },
+  {
+    "matchId": "f2bc2f4b-e48d-4eee-8ad9-9c5f202ae775",
+    "player1": {
+      "id": 987,
+      "mmr": 987,
+      "region": "AF",
+      "churnLikelihood": 0.0,
+      "winCount": 8,
+      "lossCount": 4,
+      "tieCount": 1,
+      "lastGameResult": 2,
+      "streak": 4
+    },
+    "player2": {
+      "id": 954,
+      "mmr": 2980,
+      "region": "SA",
+      "churnLikelihood": 0.0,
+      "winCount": 18,
+      "lossCount": 24,
+      "tieCount": 2,
+      "lastGameResult": 0,
+      "streak": 22
+    },
+    "received_timestamp": 1749702794.7547295
+  }
+]
