@@ -54,7 +54,7 @@ public class CreatePostgresDB {
 
       StringBuilder insertBuilder = new StringBuilder("INSERT INTO PLAYER (player_id, games_won, games_lost, games_tied, last_game_result, streak_count) VALUES\n");
       Random rng = new Random();
-      int totalPlayers = 1000;
+      int totalPlayers = 10000;
       double tieMargin = 0.05; // increasing this would make ties happen more often
       for (int i = 0; i < totalPlayers; i++) {
         double winRate = Math.max(Math.min(0.5 + 0.15 * rng.nextGaussian(), 1), 0);
