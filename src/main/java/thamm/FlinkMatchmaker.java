@@ -20,7 +20,7 @@ public class FlinkMatchmaker {
     public static void main(String[] args) throws Exception {
         // Set up the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.setParallelism(10);
+        env.setParallelism(1);
 
         // Configure Kafka consumer
         KafkaSource<String> source = KafkaSource.<String>builder()

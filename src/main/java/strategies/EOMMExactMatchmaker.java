@@ -23,7 +23,7 @@ public class EOMMExactMatchmaker extends KeyedProcessFunction<String, Player, Ma
 
     private transient Connection connection;
     private transient ListState<Player> playerPool;
-    private static final String URL = "jdbc:postgresql://localhost:5432/my_database";
+    private static final String URL = "jdbc:postgresql://host.docker.internal:5432/my_database";
     private static final String USER = "myuser";
     private static final String PASSWORD = "password";
 
