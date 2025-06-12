@@ -5,6 +5,12 @@ import time
 from kafka import KafkaConsumer
 from threading import Thread
 
+NUM_PLAYERS = 1000              # UPDATE THIS TO CHANGE THE NUMBER OF PLAYERS
+MATCHMAKING_TYPE = "EOMM"       # UPDATE THIS TO CHANGE THE TYPE OF MATCHMAKING (REMEMBER TO CHANGE IN FlinkMatchmaker too!)
+PLAYER_JSON_FILE = str(NUM_PLAYERS) + "_players.json"
+PLAYER_TIMESTAMPS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_timestamps.json"
+MATCH_RESULTS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_matches.json"
+
 API_URL = "http://localhost:8000/join-queue"
 KAFKA_TOPIC = "match-results-1"
 KAFKA_BOOTSTRAP = "localhost:9092"
@@ -32,7 +38,7 @@ def collect_results(results_list, timeout=30):
                 print(f"[Kafka] Match: {match}")
 
 async def send_players(ts_map):
-    with open("players.json") as f:
+    with open(PLAYER_JSON_FILE) as f:
         players = json.load(f)
 
     async with httpx.AsyncClient() as session:
@@ -66,10 +72,10 @@ def main():
     kafka_thread.join()
 
     # Save logs
-    with open("eomm_player_timestamps.json", "w") as f:
+    with open(PLAYER_TIMESTAMPS_FILE, "w") as f:
         json.dump(ts_map, f, indent=2)
 
-    with open("eomm_match_results.json", "w") as f:
+    with open(MATCH_RESULTS_FILE, "w") as f:
         json.dump(match_results, f, indent=2)
 
     print("[Done] Sent players and collected match results.")
