@@ -39,8 +39,8 @@ This will asynchronously send join requests to the API to simulate real load.
 # Kafka Topic Setup
 Create the topic with partitions in docker:
 
--docker exec -it docker-kafka-1 kafka-topics --bootstrap-server localhost:9092 --create --topic matchmaking-system-7 --partitions 10 --replication-factor 1
+docker exec -it docker-kafka-1 kafka-topics --bootstrap-server kafka:29092 --create --topic matchmaking-system-7 --partitions 10 --replication-factor 1
 
 Delete the topic (in case you need to reset):
 
--docker exec -it docker-kafka-1 kafka-topics --bootstrap-server localhost:9092 --delete --topic matchmaking-system-7
+docker exec -it docker-kafka-1 kafka-topics --bootstrap-server kafka:29092 --delete --topic matchmaking-system-7
