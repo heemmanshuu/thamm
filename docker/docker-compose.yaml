@@ -28,6 +28,7 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     command: jobmanager
     volumes:
+      - ./flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
       - ./logs/jobmanager:/opt/flink/log
 
   taskmanager:
@@ -38,4 +39,5 @@ services:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     command: taskmanager
     volumes:
+      - ./flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
       - ./logs/taskmanager:/opt/flink/log

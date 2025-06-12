@@ -27,7 +27,7 @@ public class FlinkMatchmaker {
     public static void main(String[] args) throws Exception {
         // Set up the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.setParallelism(1);
+        env.setParallelism(10);
 
         // checkpointing code for fault tolerance
         env.enableCheckpointing(10000);

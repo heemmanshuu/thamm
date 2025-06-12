@@ -1,0 +1,7 @@
+jobmanager.rpc.address: jobmanager
+taskmanager.numberOfTaskSlots: 5
+jobmanager.memory.process.size: 1600m
+taskmanager.memory.process.size: 2048m
+blob.server.port: 6124
+query.server.port: 6125
+blob.server.port: 6124
