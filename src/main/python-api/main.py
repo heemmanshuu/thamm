@@ -14,19 +14,7 @@ message_queue = asyncio.Queue()
 producer = Producer({'bootstrap.servers': 'localhost:9092'})
 topic = "matchmaking-system-7"
 num_partitions = 10 
-bucketizer = MMRBucketizer(mean=1500.0, stddev=500.0, k=num_partitions)
-
-# Flush interval in seconds
-# FLUSH_INTERVAL = 0.5
-
-# # Background flushing thread
-# def background_flusher():
-#     while True:
-#         producer.flush()  # flush all buffered messages, blocks only if there is something to flush
-#         time.sleep(FLUSH_INTERVAL)
-
-# flush_thread = threading.Thread(target=background_flusher, daemon=True)
-# flush_thread.start()
+bucketizer = MMRBucketizer(mean=1500.0, stddev=300.0, k=num_partitions)
 
 # Define the expected player input schema
 class Player(BaseModel):
