@@ -13,7 +13,7 @@ message_queue = asyncio.Queue()
 # Kafka config
 producer = Producer({'bootstrap.servers': 'localhost:9092'})
 topic = "matchmaking-system-7"
-num_partitions = 10 
+num_partitions = 10
 bucketizer = MMRBucketizer(mean=1500.0, stddev=300.0, k=num_partitions)
 
 # Define the expected player input schema

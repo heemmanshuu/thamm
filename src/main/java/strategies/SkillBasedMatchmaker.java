@@ -1,20 +1,20 @@
 package strategies;
+
 import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.configuration.Configuration;
-import org.apache.flink.streaming.api.functions.ProcessFunction;
+import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 import org.apache.flink.util.Collector;
 
-import data.PlayerStatsFetcher;
 import types.Match;
 import types.Player;
-import types.PlayerStats;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
 
-public class SkillBasedMatchmaker extends ProcessFunction<Player, Match> {
+public class SkillBasedMatchmaker extends KeyedProcessFunction<Integer, Player, Match> {
 
     private transient ListState<Player> waitingPlayers;
 
@@ -26,34 +26,45 @@ public class SkillBasedMatchmaker extends ProcessFunction<Player, Match> {
 
     @Override
     public void processElement(Player player, Context ctx, Collector<Match> out) throws Exception {
-        // Fetch churn risk (synchronously, consider async IO in production)
-        PlayerStats stats = PlayerStatsFetcher.getPlayerStats(player.getId());
-        double churnRisk = (stats != null) ? stats.getChurnLikelihood() : 0.5;
-        player.setChurnLikelihood(churnRisk);
-
-        // Add to internal buffer
+        // Add incoming player to waiting list (per key)
         waitingPlayers.add(player);
 
+        // Load waiting players into a list
         List<Player> buffer = new ArrayList<>();
         for (Player p : waitingPlayers.get()) {
             buffer.add(p);
         }
 
-        if (buffer.size() >= 2) {
-            Player p1 = buffer.get(0);
-            Player p2 = buffer.get(1);
+        // Sort players by MMR ascending
+        buffer.sort(Comparator.comparingDouble(Player::getMMR));
 
-            // Match players with similar churn risk
-            if (Math.abs(p1.getChurnLikelihood() - p2.getChurnLikelihood()) < 0.5) {
-                // Remove matched players from buffer
-                waitingPlayers.clear();
-                for (int i = 2; i < buffer.size(); i++) {
-                    waitingPlayers.add(buffer.get(i));
+        // Try to match players greedily with closest MMR pairs
+        List<Player> unmatched = new ArrayList<>();
+        int i = 0;
+        while (i < buffer.size()) {
+            if (i + 1 < buffer.size()) {
+                Player p1 = buffer.get(i);
+                Player p2 = buffer.get(i + 1);
+
+                // max allowed mmr difference to match players
+                double MMR_THRESHOLD = 100.0;
+                if (Math.abs(p1.getMMR() - p2.getMMR()) <= MMR_THRESHOLD) {
+                    // Match found - emit match
+                    Match match = new Match(UUID.randomUUID().toString(), p1, p2);
+                    out.collect(match);
+                    i += 2;  // skip matched pair
+                    continue;
                 }
-
-                Match match = new Match(UUID.randomUUID().toString(), p1, p2); // no rank key now
-                out.collect(match);
             }
+            // No match, keep player unmatched for next round
+            unmatched.add(buffer.get(i));
+            i++;
+        }
+
+        // Clear and update waiting state with unmatched players
+        waitingPlayers.clear();
+        for (Player p : unmatched) {
+            waitingPlayers.add(p);
         }
     }
 }

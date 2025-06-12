@@ -11,8 +11,10 @@ import org.apache.flink.connector.kafka.sink.KafkaRecordSerializationSchema;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import strategies.EOMMExactMatchmaker;
+import strategies.SkillBasedMatchmaker;
 import types.Match;
 import types.Player;
+import types.MMRBucketizer;
 
 
 public class FlinkMatchmaker {
@@ -21,6 +23,8 @@ public class FlinkMatchmaker {
         // Set up the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
+
+        MMRBucketizer bucketizer = new MMRBucketizer(1500.0, 300.0, 10);
 
         // Configure Kafka consumer
         KafkaSource<String> source = KafkaSource.<String>builder()
@@ -52,8 +56,8 @@ public class FlinkMatchmaker {
         players.print();
 
         DataStream<Match> matches = players
-                .keyBy(player -> "all")
-                .process(new EOMMExactMatchmaker());
+                .keyBy(player -> bucketizer.getBucket(player.getMMR()))
+                .process(new SkillBasedMatchmaker());
 
         matches.print();
 

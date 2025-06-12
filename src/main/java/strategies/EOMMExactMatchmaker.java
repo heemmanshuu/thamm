@@ -19,7 +19,7 @@ import java.sql.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class EOMMExactMatchmaker extends KeyedProcessFunction<String, Player, Match> {
+public class EOMMExactMatchmaker extends KeyedProcessFunction<Integer, Player, Match> {
 
     private transient Connection connection;
     private transient ListState<Player> playerPool;
