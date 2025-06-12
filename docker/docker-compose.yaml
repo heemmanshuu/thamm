@@ -19,6 +19,8 @@ services:
       KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,DOCKER://0.0.0.0:29092
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,DOCKER://kafka:29092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    depends_on:
+      - zookeeper
 
   jobmanager:
     image: flink:1.18.1-java17
@@ -38,6 +40,22 @@ services:
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
     command: taskmanager
+
+  topic-creator:
+    image: confluentinc/cp-kafka:7.2.1
+    depends_on:
+      - kafka
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        echo "Waiting for Kafka to be ready..." && \
+        cub kafka-ready -b kafka:29092 1 20 && \
+        kafka-topics --bootstrap-server kafka:29092 \
+          --create \
+          --if-not-exists \
+          --topic matchmaking-system-7 \
+          --partitions 10 \
+          --replication-factor 1
     volumes:
       - ./flink-conf.yaml:/opt/flink/conf/flink-conf.yaml
       - ./logs/taskmanager:/opt/flink/log
