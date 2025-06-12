@@ -12,14 +12,17 @@ def generate_mmr():
 REGIONS = ['NA', 'EU', 'ASIA', 'SA', 'AF']
 
 
-players = []
-for i in range(1000):
-    player = {
-        "id": str(i),
-        "mmr":  generate_mmr(),
-        "region": random.choice(REGIONS)
-    }
-    players.append(player)
+nums = [1000, 2000, 5000, 10000]
+for num in nums:
+    players = []
+    for i in range(num):
+        player = {
+            "id": str(i),
+            "mmr":  generate_mmr(),
+            "region": random.choice(REGIONS)
+        }
+        players.append(player)
 
-with open("players.json", "w") as f:
-    json.dump(players, f, indent=2)
+    players_file = str(num) + "_players.json"
+    with open(players_file, "w") as f:
+        json.dump(players, f, indent=2)
