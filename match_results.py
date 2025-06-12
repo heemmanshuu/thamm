@@ -30,7 +30,7 @@ cv = std_dev / average if average != 0 else 0
 # Print results
 print(f"Total matches: {count}")
 print(f"Average MMR discrepancy: {average:.2f}")
-print(f"Variance: {variance:.2f}")
+# print(f"Variance: {variance:.2f}")
 print(f"Standard Deviation: {std_dev:.2f}")
 print(f"Min discrepancy: {min_discrepancy}")
 print(f"Max discrepancy: {max_discrepancy}")
