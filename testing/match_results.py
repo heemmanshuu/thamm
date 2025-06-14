@@ -3,12 +3,6 @@ import psycopg2
 import numpy as np
 import os
 
-NUM_PLAYERS = 1000              # UPDATE THIS TO CHANGE THE NUMBER OF PLAYERS
-MATCHMAKING_TYPE = "EOMM"       # UPDATE THIS TO CHANGE THE TYPE OF MATCHMAKING (REMEMBER TO CHANGE IN FlinkMatchmaker too!)
-
-PLAYER_TIMESTAMPS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_timestamps.json"
-MATCH_RESULTS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_matches.json"
-
 DB_CONFIG = {
     "dbname": "my_database",
     "user": "myuser",
@@ -135,7 +129,7 @@ def main():
     conn = psycopg2.connect(**DB_CONFIG)
 
     matchmaking_types = ["eomm", "sbmm"]
-    player_counts = [1000, 2000, 5000, 10000]
+    player_counts = [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000] #  2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
 
     for mm_type in matchmaking_types:
         for num_players in player_counts:

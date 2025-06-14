@@ -5,7 +5,7 @@ import time
 from kafka import KafkaConsumer
 from threading import Thread
 
-NUM_PLAYERS = 1000              # UPDATE THIS TO CHANGE THE NUMBER OF PLAYERS
+NUM_PLAYERS = 3000              # UPDATE THIS TO CHANGE THE NUMBER OF PLAYERS
 MATCHMAKING_TYPE = "EOMM"       # UPDATE THIS TO CHANGE THE TYPE OF MATCHMAKING (REMEMBER TO CHANGE IN FlinkMatchmaker too!)
 PLAYER_JSON_FILE = str(NUM_PLAYERS) + "_players.json"
 PLAYER_TIMESTAMPS_FILE = MATCHMAKING_TYPE + "_" + str(NUM_PLAYERS) + "_player_timestamps.json"
@@ -15,7 +15,7 @@ API_URL = "http://localhost:8000/join-queue"
 KAFKA_TOPIC = "match-results-1"
 KAFKA_BOOTSTRAP = "localhost:9092"
 
-def collect_results(results_list, timeout=30):
+def collect_results(results_list, timeout=60):
     consumer = KafkaConsumer(
         KAFKA_TOPIC,
         bootstrap_servers=KAFKA_BOOTSTRAP,

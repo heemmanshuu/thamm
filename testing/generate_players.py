@@ -12,7 +12,7 @@ def generate_mmr():
 REGIONS = ['NA', 'EU', 'ASIA', 'SA', 'AF']
 
 
-nums = [1000, 2000, 5000, 10000]
+nums = [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000]
 for num in nums:
     players = []
     for i in range(num):
