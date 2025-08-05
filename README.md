@@ -1,6 +1,6 @@
-# THAMM: Stream-Native Matchmaking Middleware
+# MatchOpt: A Distributed Matchmaking Engine Based on Engagement Optimized Matchmaking in Video Game Applications
 
-**THAMM** is a real-time matchmaking middleware system built on Apache Kafka and Flink. It allows pluggable matchmaking strategies to be applied to incoming player streams with minimal infrastructure setup.
+**MatchOpt** is a real-time matchmaking middleware system built on Apache Kafka and Flink. It allows pluggable matchmaking strategies to be applied to incoming player streams with minimal infrastructure setup.
 
 ---
 
